@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="erklaerung_zu_kosten" label="Erklärung zu Kosten" language="en" table="x_526765_reisemngr_reiseantrag">
+    <sys_documentation element="erantwortlich_fur_genehmigung" label="erantwortlich für Genehmigung" language="en" table="x_526765_reisemngr_reiseantrag">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>erklaerung_zu_kosten</element>
+            <element>erantwortlich_fur_genehmigung</element>
             <help/>
             <hint/>
-            <label>Erklärung zu Kosten</label>
+            <label>erantwortlich für Genehmigung</label>
             <language>en</language>
             <name>x_526765_reisemngr_reiseantrag</name>
-            <plural>Erklärung zu Kostens</plural>
+            <plural>erantwortlich für Genehmigungs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 11:25:26</sys_created_on>
-            <sys_id>5b1c87a92f4b90106fb0de1a2799b620</sys_id>
+            <sys_created_on>2020-09-04 17:26:13</sys_created_on>
+            <sys_id>bdf157ad2f4b90106fb0de1a2799b6b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Erklärung zu Kosten</sys_name>
+            <sys_name>erantwortlich für Genehmigung</sys_name>
             <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
             <sys_policy/>
             <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-            <sys_update_name>sys_documentation_x_526765_reisemngr_reiseantrag_erklaerung_zu_kosten_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526765_reisemngr_reiseantrag_erantwortlich_fur_genehmigung_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 11:25:26</sys_updated_on>
+            <sys_updated_on>2020-09-04 17:26:13</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

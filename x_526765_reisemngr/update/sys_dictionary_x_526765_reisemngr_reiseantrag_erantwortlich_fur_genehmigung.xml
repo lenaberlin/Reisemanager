@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="status" table="x_526765_reisemngr_reiseantrag">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="erantwortlich_fur_genehmigung" table="x_526765_reisemngr_reiseantrag">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -11,13 +11,13 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Status</column_label>
+        <column_label>erantwortlich für Genehmigung</column_label>
         <comments/>
         <create_roles/>
-        <default_value>1</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,20 +27,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>status</element>
+        <element>erantwortlich_fur_genehmigung</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>32</max_length>
         <name>x_526765_reisemngr_reiseantrag</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-04 10:53:25</sys_created_on>
-        <sys_id>531c87a92f4b90106fb0de1a2799b62a</sys_id>
+        <sys_created_on>2020-09-04 17:26:13</sys_created_on>
+        <sys_id>d840576d2f4b90106fb0de1a2799b628</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name>erantwortlich für Genehmigung</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_status</sys_update_name>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_erantwortlich_fur_genehmigung</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 17:00:42</sys_updated_on>
+        <sys_updated_on>2020-09-04 17:26:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
