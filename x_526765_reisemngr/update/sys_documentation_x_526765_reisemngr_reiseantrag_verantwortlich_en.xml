@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="erantwortlich_fur_genehmigung" label="erantwortlich für Genehmigung" language="en" table="x_526765_reisemngr_reiseantrag">
+    <sys_documentation element="verantwortlich" label="Verantwortlich" language="en" table="x_526765_reisemngr_reiseantrag">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>erantwortlich_fur_genehmigung</element>
+            <element>verantwortlich</element>
             <help/>
             <hint/>
-            <label>erantwortlich für Genehmigung</label>
+            <label>Verantwortlich</label>
             <language>en</language>
             <name>x_526765_reisemngr_reiseantrag</name>
-            <plural>erantwortlich für Genehmigungs</plural>
+            <plural>Verantwortliches</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 17:26:13</sys_created_on>
-            <sys_id>ddb0cc3ddb87101023d3dde748961905</sys_id>
+            <sys_created_on>2020-09-04 21:49:52</sys_created_on>
+            <sys_id>7f4e04352f0f90106fb0de1a2799b62b</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>erantwortlich für Genehmigung</sys_name>
+            <sys_name>Verantwortlich</sys_name>
             <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
             <sys_policy/>
             <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-            <sys_update_name>sys_documentation_x_526765_reisemngr_reiseantrag_erantwortlich_fur_genehmigung_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526765_reisemngr_reiseantrag_verantwortlich_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 17:26:13</sys_updated_on>
+            <sys_updated_on>2020-09-04 21:49:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

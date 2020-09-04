@@ -2,7 +2,6 @@
     <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" label="Auftragsnummer" max_length="40" name="auftragsnummer" read_only="true" type="string"/>
         <element label="Enddatum" mandatory="true" max_length="40" name="enddatum" type="glide_date"/>
-        <element label="erantwortlich für Genehmigung" max_length="32" name="erantwortlich_fur_genehmigung" reference="sys_user" type="reference"/>
         <element label="Erklärung zu Kosten" max_length="4000" name="erklaerung_zu_kosten" type="string"/>
         <element label="Gesamtkosten" max_length="20" name="gesamtkosten" read_only="true" type="currency"/>
         <element label="Geschätzte Gebühren" max_length="20" name="geschaetze_geb_hren" type="currency"/>
@@ -28,6 +27,7 @@
                 <element inactive_on_update="false" label="Warten auf Genehmigung" value="2"/>
             </choice>
         </element>
+        <element label="Verantwortlich" max_length="32" name="verantwortlich" reference="sys_user" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
         <element label="Von" mandatory="true" max_length="32" name="von" reference="cmn_location" type="reference"/>
         <element label="Ziel" mandatory="true" max_length="32" name="ziel" reference="cmn_location" type="reference"/>
         <index name="index">
@@ -37,7 +37,7 @@
             <element name="name"/>
         </index>
         <index name="index3">
-            <element name="erantwortlich_fur_genehmigung"/>
+            <element name="verantwortlich"/>
         </index>
         <index name="index4">
             <element name="ziel"/>

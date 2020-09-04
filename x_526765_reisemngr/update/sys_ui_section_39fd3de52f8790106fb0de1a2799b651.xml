@@ -182,6 +182,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>verantwortlich</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-04 21:49:52</sys_created_on>
+            <sys_id>3f4e48f12f0f90106fb0de1a2799b639</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reiseantrag" display_value="Reiseantrag" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">39fd3de52f8790106fb0de1a2799b651</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-04 21:49:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Reiseantrag</caption>
             <header>false</header>
