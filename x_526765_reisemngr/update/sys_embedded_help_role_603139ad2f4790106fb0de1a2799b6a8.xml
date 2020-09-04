@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_526765_reisemngr.reisekostenabrechnung_user" name="x_526765_reisemngr.reisekostenabrechnung_user">24313d6d2f4790106fb0de1a2799b680</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 10:23:26</sys_created_on>
