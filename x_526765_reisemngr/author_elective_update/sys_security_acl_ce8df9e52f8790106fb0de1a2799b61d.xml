@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_526765_reisemngr_sys_user</description>
+        <name>x_526765_reisemngr_sys_user</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 11:17:19</sys_created_on>
+        <sys_id>ce8df9e52f8790106fb0de1a2799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_reisemngr_sys_user</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_security_acl_ce8df9e52f8790106fb0de1a2799b61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-04 11:17:19</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_security_acl_ce8df9e52f8790106fb0de1a2799b61d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_526765_reisemngr_sys_user</description><name>x_526765_reisemngr_sys_user</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-04 11:17:19</sys_created_on><sys_id>ce8df9e52f8790106fb0de1a2799b61d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_526765_reisemngr_sys_user</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_security_acl_ce8df9e52f8790106fb0de1a2799b61d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-04 11:17:19</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>173276031</payload_hash>
+        <record_name>x_526765_reisemngr_sys_user</record_name>
+        <reverted_from/>
+        <source>35c0b1ad2f4790106fb0de1a2799b6d2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 11:17:19</sys_created_on>
+        <sys_id>868df9e52f8790106fb0de1a2799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17458d5c88c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-04 11:17:19</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ce8df9e52e879010a0553567c21afb1f</update_guid>
+        <update_guid_history>ce8df9e52e879010a0553567c21afb1f:173276031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 11:20:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>87489066048442ae962d2c7cd9fe7469</sys_id>
+        <sys_metadata>ce8df9e52f8790106fb0de1a2799b61d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_reisemngr_sys_user</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="">428df9e52f8790106fb0de1a2799b62f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_security_acl_ce8df9e52f8790106fb0de1a2799b61d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_ce8df9e52f8790106fb0de1a2799b61d">868df9e52f8790106fb0de1a2799b620</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-04 11:20:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>auftragsnummer</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Korrekte Datumangabe</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+
+    var start = g_form.getValue("startdatum");
+    var end = g_form.getValue("enddatum");
+    var format = "dd.MM.yyyy";
+
+    var d = new Date();
+    var datum_heute = formatDate(d, format);
+
+    var returnval = true; //default return variable
+    g_form.hideAllFieldMsgs("error");
+
+    var StartVorHeute = compareDates(datum_heute, format, start, format);
+
+	//prüft, ob der Reisestart nicht in der Vergangenheit liegt
+    if (StartVorHeute) {
+        g_form.showErrorBox("startdatum", "Der Reisestart muss nach dem aktuellen Datum sein");
+    returnval = false;// damit nich weiter Submittet wird
+    }
+	
+    var EndeVorStart = compareDates(start, format, end, format);
+
+	//prüft, ob Enddatum vor Startdatum liegt
+    if (EndeVorStart) {
+        g_form.showErrorBox("enddatum", "Das Reiseende muss nach dem Reisestart sein");
+        returnval = false; // damit nich weiter Submittet wird
+    }
+    return returnval;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 12:19:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>064a4a212fc790106fb0de1a2799b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Korrekte Datumangabe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_064a4a212fc790106fb0de1a2799b64b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-04 12:19:35</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

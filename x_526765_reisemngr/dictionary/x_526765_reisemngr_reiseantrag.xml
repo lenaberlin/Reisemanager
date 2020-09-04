@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" sizeclass="0" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Auftragsnummer" max_length="40" name="auftragsnummer" read_only="true" type="string"/>
+        <element label="Enddatum" mandatory="true" max_length="40" name="enddatum" type="glide_date"/>
+        <element label="Erklärung zu Kosten" max_length="4000" name="erklaerung_zu_kosten" type="string"/>
+        <element label="Gesamtkosten" max_length="20" name="gesamtkosten" read_only="true" type="currency"/>
+        <element label="Geschätzte Gebühren" max_length="20" name="geschaetze_geb_hren" type="currency"/>
+        <element label="Geschätzte Fahrtkosten" max_length="20" name="geschaetzte_fahrtkosten" type="currency"/>
+        <element label="Geschätzte Unterkunftskosten" max_length="20" name="geschaetzte_unterkunftskosten" type="currency"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="3" label="Priorität" max_length="40" name="prioritaet" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Hoch" value="1"/>
+                <element inactive_on_update="false" label="2 - Mittel" value="2"/>
+                <element inactive_on_update="false" label="3 - Niedrig" value="3"/>
+            </choice>
+        </element>
+        <element label="Reisezweck" max_length="160" name="reisezweck" type="string"/>
+        <element label="Startdatum" mandatory="true" max_length="40" name="startdatum" type="glide_date"/>
+        <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Abgelehnt" value="-1"/>
+                <element inactive_on_update="false" label="Abgerechnet" value="5"/>
+                <element inactive_on_update="false" label="Abgeschlossen" value="4"/>
+                <element inactive_on_update="false" label="Antrag" value="1"/>
+                <element inactive_on_update="false" label="Genehmigt" value="3"/>
+                <element inactive_on_update="false" label="Warten auf Genehmigung" value="2"/>
+            </choice>
+        </element>
+        <element label="Von" mandatory="true" max_length="32" name="von" reference="cmn_location" type="reference"/>
+        <element label="Ziel" mandatory="true" max_length="32" name="ziel" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="von"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+        <index name="index3">
+            <element name="ziel"/>
+        </index>
+    </element>
+</database>
