@@ -2,7 +2,7 @@
     <sys_ui_macro action="INSERT_OR_UPDATE">
         <active>true</active>
         <category>general</category>
-        <description>Zeigt einen Link zur Website vom Auswärtigen Amt, auf der  der Reisende  weitere Einzelheiten aktuelle Reisehinweise findet.ü&#13;
+        <description>Zeigt einen Link zur Website vom Auswärtigen Amt, auf der  der Reisende  weitere Einzelheiten aktuelle Reisehinweise findet.&#13;
 </description>
         <media_type/>
         <name>Reisehinweis</name>
@@ -11,17 +11,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 12:26:31</sys_created_on>
         <sys_id>5c9c02a12fc790106fb0de1a2799b6f3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Reisehinweis</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_ui_macro_5c9c02a12fc790106fb0de1a2799b6f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 12:26:31</sys_updated_on>
+        <sys_updated_on>2020-09-04 14:44:50</sys_updated_on>
         <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
-         <b>Bitte Lesen Sie<a href= "https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise" targe="_blank"> hier</a> die aktuelle Reise und Sicherheitshinweise, bevor Sie einen Reiseantrag stellen.
+         <b>Bitte Lesen Sie die aktuellen Reise- und Sicherheitshinweise, bevor Sie einen Reiseantrag stellen.<a href="https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/reise-und-sicherheitshinweise" target="_blank">&#160;Klicken Sie hier</a>
          </b>
 </j:jelly>    
 ]]></xml>

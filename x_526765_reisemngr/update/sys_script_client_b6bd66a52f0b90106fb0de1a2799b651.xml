@@ -3,12 +3,12 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>Vergleicht, ob das Datum richtig eingetragen ist</description>
         <field>auftragsnummer</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Korrekte Datumangabe</name>
+        <name>Datumkontrolle</name>
         <order/>
         <script><![CDATA[function onSubmit() {
 
@@ -41,19 +41,19 @@
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-04 12:19:35</sys_created_on>
+        <sys_created_on>2020-09-04 14:48:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>064a4a212fc790106fb0de1a2799b64b</sys_id>
+        <sys_id>b6bd66a52f0b90106fb0de1a2799b651</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Korrekte Datumangabe</sys_name>
+        <sys_name>Datumkontrolle</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_script_client_064a4a212fc790106fb0de1a2799b64b</sys_update_name>
+        <sys_update_name>sys_script_client_b6bd66a52f0b90106fb0de1a2799b651</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 12:19:35</sys_updated_on>
+        <sys_updated_on>2020-09-04 14:48:48</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>
