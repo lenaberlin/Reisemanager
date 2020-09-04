@@ -4,47 +4,43 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>reisezweck</field>
+        <field>auftragsnummer</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Großbuchstaben</name>
+        <name>Gesamtkosten</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
-	
- 
-    function toTitleCase(str){
-	return str.replace(/\w\S*/g, function(text){
-	return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
-	});
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var geb = g_form.getDecimalValue("geschaetze_geb_hren");
+	var fahr = g_form.getDecimalValue("geschaetzte_fahrtkosten");
+	var unt = g_form.getDecimalValue("geschaetzte_unterkunftskosten");
+	var gesamt = parseFloat(geb) + parseFloat(fahr) + parseFloat(unt);
+	var v = "";
+	var tmp = g_form.getValue("geschaetze_geb_hren");
+	for(var i = 0; tmp[i] != ";"; i++){
+		v += tmp[i];
 	}
-var tmp = g_form.getValue("reisezweck");
-var grossbuchstaben = toTitleCase(tmp);
-g_form.setValue("reisezweck" , grossbuchstaben);
-g_form.hideAllFieldMsgs("error");
-	
-}
-]]></script>
+	alert(v + ";" + gesamt);
+	g_form.setValue("gesamtkosten", v + ";" + gesamt);
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-04 12:11:47</sys_created_on>
+        <sys_created_on>2020-09-04 21:02:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>18b88aed2f8790106fb0de1a2799b68d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Großbuchstaben</sys_name>
+        <sys_id>e7b18c7ddb87101023d3dde74896192c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_script_client_18b88aed2f8790106fb0de1a2799b68d</sys_update_name>
+        <sys_update_name>sys_script_client_e7b18c7ddb87101023d3dde74896192c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 21:04:48</sys_updated_on>
+        <sys_updated_on>2020-09-04 21:10:59</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
-        <type>onChange</type>
+        <type>onSubmit</type>
         <ui_type>0</ui_type>
         <view/>
     </sys_script_client>
