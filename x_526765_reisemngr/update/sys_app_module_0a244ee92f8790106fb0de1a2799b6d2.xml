@@ -13,7 +13,7 @@
         <mobile_title>Reiseanträge</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_526765_reisemngr_reiseantrag</name>
-        <order>200</order>
+        <order>250</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a244ee92f8790106fb0de1a2799b6d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Reiseanträge</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Reiseanträge verwalten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_app_module_0a244ee92f8790106fb0de1a2799b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 11:47:37</sys_updated_on>
+        <sys_updated_on>2020-09-05 09:56:16</sys_updated_on>
         <timeline_page/>
-        <title>Reiseanträge</title>
+        <title>Reiseanträge verwalten</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

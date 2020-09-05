@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <application display_value="Reisemanager">6793862d2f8790106fb0de1a2799b6bd</application>
         <assessment/>
         <device_type/>
@@ -13,18 +13,18 @@
         <mobile_title>Reiseantrag stellen</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_526765_reisemngr_reiseantrag</name>
-        <order>100</order>
+        <order>50</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_526765_reisemngr.Benutzer,x_526765_reisemngr.Buchhalter,x_526765_reisemngr.Vorgesetzter</roles>
+        <roles>x_526765_reisemngr.Benutzer</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 11:45:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40b3c62d2f8790106fb0de1a2799b6d4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Reiseantrag erstellen</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_app_module_40b3c62d2f8790106fb0de1a2799b6d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 15:40:40</sys_updated_on>
+        <sys_updated_on>2020-09-05 09:51:28</sys_updated_on>
         <timeline_page/>
         <title>Reiseantrag erstellen</title>
         <uncancelable>false</uncancelable>
