@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="328f03792fc3d0106fb0de1a2799b64c" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_526765_reisemngr_Kosten.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>0b8f03792fc3d0106fb0de1a2799b6c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Kosten">044f4f392fc3d0106fb0de1a2799b6cb</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>438f03792fc3d0106fb0de1a2799b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unterkunftskosten</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>c78f03792fc3d0106fb0de1a2799b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fahrtkosten</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>4f8f03792fc3d0106fb0de1a2799b6c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gebuehren</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>c38f03792fc3d0106fb0de1a2799b6c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>4b8f03792fc3d0106fb0de1a2799b6c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beleg_f_r_unterkunftskosten</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>cf8f03792fc3d0106fb0de1a2799b6c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beleg_fuer_fahrtkosten</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>478f03792fc3d0106fb0de1a2799b6c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beleg_fuer_gebuehren</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+            <sys_id>cb8f03792fc3d0106fb0de1a2799b6c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_526765_reisemngr_reisekostenabrechnung</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 11:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>328f03792fc3d0106fb0de1a2799b64c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Section</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+            <sys_update_name>sys_ui_section_328f03792fc3d0106fb0de1a2799b64c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 11:54:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_section_328f03792fc3d0106fb0de1a2799b64c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="328f03792fc3d0106fb0de1a2799b64c" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>x_526765_reisemngr_Kosten.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>0b8f03792fc3d0106fb0de1a2799b6c6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Kosten">044f4f392fc3d0106fb0de1a2799b6cb</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>438f03792fc3d0106fb0de1a2799b6c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>unterkunftskosten</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>c78f03792fc3d0106fb0de1a2799b6c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fahrtkosten</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>4f8f03792fc3d0106fb0de1a2799b6c7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>gebuehren</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>c38f03792fc3d0106fb0de1a2799b6c8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>4b8f03792fc3d0106fb0de1a2799b6c8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>beleg_f_r_unterkunftskosten</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>cf8f03792fc3d0106fb0de1a2799b6c8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>beleg_fuer_fahrtkosten</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>478f03792fc3d0106fb0de1a2799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>beleg_fuer_gebuehren</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:08</sys_created_on><sys_id>cb8f03792fc3d0106fb0de1a2799b6c9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">328f03792fc3d0106fb0de1a2799b64c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_526765_reisemngr_reisekostenabrechnung</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-05 11:54:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>328f03792fc3d0106fb0de1a2799b64c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Section</sys_name><sys_overrides/><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_ui_section_328f03792fc3d0106fb0de1a2799b64c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-05 11:54:07</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>517859792</payload_hash>
+        <record_name>Reisekostenabrechnung</record_name>
+        <reverted_from/>
+        <source>94c807352fc3d0106fb0de1a2799b6f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 11:54:08</sys_created_on>
+        <sys_id>4f8f03792fc3d0106fb0de1a2799b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1745e1dd85e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-05 11:54:08</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c78f037942c3d01062481ebc1c2d73cb</update_guid>
+        <update_guid_history>c78f037942c3d01062481ebc1c2d73cb:517859792</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 11:55:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1b083b74b67a4d9f8e85e7c04e028399</sys_id>
+        <sys_metadata>328f03792fc3d0106fb0de1a2799b64c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_section_328f03792fc3d0106fb0de1a2799b64c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_328f03792fc3d0106fb0de1a2799b64c">4f8f03792fc3d0106fb0de1a2799b6cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-05 11:55:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
