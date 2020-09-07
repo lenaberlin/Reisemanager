@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 17:55:52</sys_created_on>
+        <sys_id>acc4fe2a2f8f14106fb0de1a2799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_526765_reisemngr.Vorgesetzter</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_ui_action display_value="Genehmigen">abb4f66a2f8f14106fb0de1a2799b681</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_acc4fe2a2f8f14106fb0de1a2799b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 17:55:52</sys_updated_on>
+        <sys_user_role display_value="x_526765_reisemngr.Vorgesetzter" name="x_526765_reisemngr.Vorgesetzter">4c4e6de92f4790106fb0de1a2799b60d</sys_user_role>
+    </sys_ui_action_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_ui_action_role_acc4fe2a2f8f14106fb0de1a2799b622</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 17:55:52</sys_created_on>
+        <sys_id>acc4fe2a2f8f14106fb0de1a2799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_526765_reisemngr.Vorgesetzter</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_ui_action display_value="Genehmigen">abb4f66a2f8f14106fb0de1a2799b681</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_acc4fe2a2f8f14106fb0de1a2799b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 17:55:52</sys_updated_on>
+        <sys_user_role display_value="x_526765_reisemngr.Vorgesetzter" name="x_526765_reisemngr.Vorgesetzter">4c4e6de92f4790106fb0de1a2799b60d</sys_user_role>
+    </sys_ui_action_role>
+</record_update>]]></payload>
+        <payload_hash>-573132759</payload_hash>
+        <record_name>.x_526765_reisemngr.Vorgesetzter</record_name>
+        <reverted_from/>
+        <source>486a72e6dbcb1010eadaa0f2ca96190b</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 18:17:45</sys_created_on>
+        <sys_id>0e8a3ee6dbcb1010eadaa0f2ca96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17469c9c63f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 18:17:45</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>ca8a3ee607cb1010781a46aebb5b8a9a</update_guid>
+        <update_guid_history>ca8a3ee607cb1010781a46aebb5b8a9a:-573132759</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 18:53:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>1d275f1c66fc4c2aa0cfcc4cbb96fd11</sys_id>
+        <sys_metadata>acc4fe2a2f8f14106fb0de1a2799b622</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_526765_reisemngr.Vorgesetzter</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_acc4fe2a2f8f14106fb0de1a2799b622</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_acc4fe2a2f8f14106fb0de1a2799b622">0e8a3ee6dbcb1010eadaa0f2ca96199a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 18:53:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
