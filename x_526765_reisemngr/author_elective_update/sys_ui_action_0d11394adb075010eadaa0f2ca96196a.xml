@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>abbrechen</action_name>
+        <active>false</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.canWrite()</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Abbrechen</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[try {
+var allFields = g_form.getMissingFields();
+	for (var fieldName in allFields){
+		g_form.setMandatory(allFields[fieldName], false);
+	}
+
+
+g_form.setMandatory(current.von, false);
+g_form.setMandatory(current.ziel, false);
+g_form.setMandatory(current.startdatum, false);
+g_form.setMandatory(current.enddatum, false);
+g_form.setMandatory(current.reisezweck, false);
+ } catch(err) {}
+
+gsftSubmit(null, g_form.getFormElement(), 'abbrechen');
+var url=current.getTableName()+'_list.do';
+action.setRedirectURL(url);
+
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 23:49:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0d11394adb075010eadaa0f2ca96196a</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Abbrechen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_action_0d11394adb075010eadaa0f2ca96196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 23:05:09</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_ui_action_0d11394adb075010eadaa0f2ca96196a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;abbrechen&lt;/action_name&gt;&lt;active&gt;false&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.canWrite()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Abbrechen&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[try {
+var allFields = g_form.getMissingFields();
+	for (var fieldName in allFields){
+		g_form.setMandatory(allFields[fieldName], false);
+	}
+
+
+g_form.setMandatory(current.von, false);
+g_form.setMandatory(current.ziel, false);
+g_form.setMandatory(current.startdatum, false);
+g_form.setMandatory(current.enddatum, false);
+g_form.setMandatory(current.reisezweck, false);
+ } catch(err) {}
+
+gsftSubmit(null, g_form.getFormElement(), 'abbrechen');
+var url=current.getTableName()+'_list.do';
+action.setRedirectURL(url);
+
+
+]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-05 23:49:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0d11394adb075010eadaa0f2ca96196a&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;Abbrechen&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_0d11394adb075010eadaa0f2ca96196a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-06 23:05:09&lt;/sys_updated_on&gt;&lt;table&gt;x_526765_reisemngr_reiseantrag&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-549450507</payload_hash>
+        <record_name>Abbrechen</record_name>
+        <reverted_from/>
+        <source>aa9d8942dbc35010eadaa0f2ca961976</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 23:05:09</sys_created_on>
+        <sys_id>4ab2f21adb431010eadaa0f2ca9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17465aa89650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 23:05:09</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>82b2f21af1431010771dd55b481a28ef</update_guid>
+        <update_guid_history>82b2f21af1431010771dd55b481a28ef:-549450507,b092721a334310100ff58074e2799ad6:1916013292,a072721a82431010b3fb3afdd2dd6748:-1948454726,f752fed60a431010fbc7b94402cdcda1:1576123893,c7d0fa965d4310101795daf53f76fdfd:369208899,27c07e96884310100f9b4dd07e33ef75:-1793643188,8c0036561b431010953e14212d163a15:-696478957,40ffae56ff4310100deff84dd99daa83:-1897885058,f5cfee56d74310103b3e79be3606252c:2017128956,67afa656e143101064db3c17f4dcd1c6:-725951914,72fea2567a43101089a88e1db70fdd5f:359434218,e2cea256f1431010db1821ca58f61046:290307196,ef9eee16fb431010e07480f81f1a544a:-649153609,4a7e6e16e543101052ccdb5135bc56ed:-1699015145,0e5e6a16b7431010c64cb77e0e004aec:919483484,47ccae92e943101014b091c566785b8d:1811667060,811b2692e743101006d6967e5c814f28:-227116991,d6b7aede2d031010a5cf7af91ff3870e:649649909,31a72ede4c031010437b5a3866a7b034:1593576702,0e5ebd82ea475010154968e4feb737d7:1452380203,600e3d822647501089d88af2a0af7504:-300895784,166d75826947501065edb74ab457041b:-592722373,645d3982454750106d70f8851e7f889a:1761546998,6ad4750e140750104552ae67d7b7f4b2:1663290923,eea4f18a33075010ab20fe42ffe3d0cb:1267863890,4933398a0e0750101a49d187e8aa5764:-1276156322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 23:13:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>123eb80ab734493d821219f2a57e54d1</sys_id>
+        <sys_metadata>0d11394adb075010eadaa0f2ca96196a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Abbrechen</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_action_0d11394adb075010eadaa0f2ca96196a</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_0d11394adb075010eadaa0f2ca96196a">4ab2f21adb431010eadaa0f2ca9619ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 23:13:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

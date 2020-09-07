@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>true</disabled>
+        <field>erklaerung_zu_kosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 23:23:54</sys_created_on>
+        <sys_data_policy display_value="Disable Felder">3e963adadb431010eadaa0f2ca961930</sys_data_policy>
+        <sys_id>7007fadadb431010eadaa0f2ca9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>erklaerung_zu_kosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_data_policy_rule_7007fadadb431010eadaa0f2ca9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 23:23:54</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+    </sys_data_policy_rule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_data_policy_rule_7007fadadb431010eadaa0f2ca9619fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule"><sys_data_policy_rule action="INSERT_OR_UPDATE"><disabled>true</disabled><field>erklaerung_zu_kosten</field><mandatory>ignore</mandatory><sys_class_name>sys_data_policy_rule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-06 23:23:54</sys_created_on><sys_data_policy display_value="Disable Felder">3e963adadb431010eadaa0f2ca961930</sys_data_policy><sys_id>7007fadadb431010eadaa0f2ca9619fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>erklaerung_zu_kosten</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_data_policy_rule_7007fadadb431010eadaa0f2ca9619fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-06 23:23:54</sys_updated_on><table>x_526765_reisemngr_reiseantrag</table></sys_data_policy_rule></record_update>]]></payload>
+        <payload_hash>-1003141151</payload_hash>
+        <record_name>erklaerung_zu_kosten</record_name>
+        <reverted_from/>
+        <source>aa9d8942dbc35010eadaa0f2ca961976</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 23:23:54</sys_created_on>
+        <sys_id>fc07fadadb431010eadaa0f2ca9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17465bbb3c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 23:23:54</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>3807fada96431010c23fa1b9549dcbfc</update_guid>
+        <update_guid_history>3807fada96431010c23fa1b9549dcbfc:-1003141151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-07 10:34:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>02df6df55db94a9ba93f2ec1bc39b791</sys_id>
+        <sys_metadata>7007fadadb431010eadaa0f2ca9619fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>erklaerung_zu_kosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_7007fadadb431010eadaa0f2ca9619fb</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_7007fadadb431010eadaa0f2ca9619fb">fc07fadadb431010eadaa0f2ca9619fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-07 10:34:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

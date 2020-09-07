@@ -24,7 +24,26 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Antrag</label>
+            <label>Entwurf</label>
+            <language>en</language>
+            <name>x_526765_reisemngr_reiseantrag</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-05 22:15:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dbcd190edbc35010eadaa0f2ca9619b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-05 22:47:19</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beantragt</label>
             <language>en</language>
             <name>x_526765_reisemngr_reiseantrag</name>
             <sequence/>
@@ -33,28 +52,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7e187de12f8790106fb0de1a2799b61d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 10:54:00</sys_updated_on>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Warten auf Genehmigung</label>
-            <language>en</language>
-            <name>x_526765_reisemngr_reiseantrag</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 10:54:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>8548bde12f8790106fb0de1a2799b653</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 10:54:46</sys_updated_on>
+            <sys_updated_on>2020-09-05 22:47:28</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

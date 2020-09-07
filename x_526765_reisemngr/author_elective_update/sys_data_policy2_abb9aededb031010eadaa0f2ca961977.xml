@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_526765_reisemngr_reiseantrag</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Obligatorische Felder</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 22:25:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abb9aededb031010eadaa0f2ca961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obligatorische Felder</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_data_policy2_abb9aededb031010eadaa0f2ca961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 22:25:55</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_data_policy2_abb9aededb031010eadaa0f2ca961977</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_526765_reisemngr_reiseantrag</model_table><reverse_if_false>true</reverse_if_false><short_description>Obligatorische Felder</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-06 22:25:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>abb9aededb031010eadaa0f2ca961977</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Obligatorische Felder</sys_name><sys_overrides/><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_data_policy2_abb9aededb031010eadaa0f2ca961977</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-06 22:25:55</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>2099347671</payload_hash>
+        <record_name>Obligatorische Felder</record_name>
+        <reverted_from/>
+        <source>aa9d8942dbc35010eadaa0f2ca961976</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 22:25:55</sys_created_on>
+        <sys_id>ebb9aededb031010eadaa0f2ca961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17465869e760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 22:25:55</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>e3b9aede30031010eee6a293e96c6779</update_guid>
+        <update_guid_history>e3b9aede30031010eee6a293e96c6779:2099347671</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-06 22:27:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>4c489c8527a048528882387f12f9da51</sys_id>
+        <sys_metadata>abb9aededb031010eadaa0f2ca961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Obligatorische Felder</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_abb9aededb031010eadaa0f2ca961977</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_abb9aededb031010eadaa0f2ca961977">ebb9aededb031010eadaa0f2ca961979</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-06 22:27:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

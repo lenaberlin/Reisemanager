@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" type="collection">
+    <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" sizeclass="6" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Auftragsnummer" max_length="40" name="auftragsnummer" read_only="true" type="string"/>
-        <element label="Enddatum" mandatory="true" max_length="40" name="enddatum" type="glide_date"/>
-        <element label="Erklärung zu Kosten" max_length="4000" name="erklaerung_zu_kosten" type="string"/>
+        <element label="Enddatum" max_length="40" name="enddatum" type="glide_date"/>
+        <element label="Anmerkungen" max_length="4000" name="erklaerung_zu_kosten" type="string"/>
         <element label="Gesamtkosten" max_length="20" name="gesamtkosten" read_only="true" type="currency"/>
         <element label="Geschätzte Gebühren" max_length="20" name="geschaetze_geb_hren" type="currency"/>
         <element label="Geschätzte Fahrtkosten" max_length="20" name="geschaetzte_fahrtkosten" type="currency"/>
@@ -15,22 +15,22 @@
                 <element inactive_on_update="false" label="3 - Niedrig" value="3"/>
             </choice>
         </element>
-        <element default="0" label="Reassignment count" max_length="40" name="reassignment_count" type="integer"/>
+        <element active="false" default="0" label="Reassignment count" max_length="40" name="reassignment_count" type="integer"/>
         <element label="Reisezweck" max_length="160" name="reisezweck" type="string"/>
-        <element label="Startdatum" mandatory="true" max_length="40" name="startdatum" type="glide_date"/>
+        <element label="Startdatum" max_length="40" name="startdatum" type="glide_date"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Abgelehnt" value="-1"/>
                 <element inactive_on_update="false" label="Abgerechnet" value="5"/>
                 <element inactive_on_update="false" label="Abgeschlossen" value="4"/>
-                <element inactive_on_update="false" label="Antrag" value="1"/>
+                <element inactive_on_update="false" label="Beantragt" value="2"/>
+                <element inactive_on_update="false" label="Entwurf" value="1"/>
                 <element inactive_on_update="false" label="Genehmigt" value="3"/>
-                <element inactive_on_update="false" label="Warten auf Genehmigung" value="2"/>
             </choice>
         </element>
-        <element label="Verantwortlich" mandatory="true" max_length="32" name="verantwortlich" reference="sys_user" reference_floats="true" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
-        <element label="Von" mandatory="true" max_length="32" name="von" reference="cmn_location" type="reference"/>
-        <element label="Ziel" mandatory="true" max_length="32" name="ziel" reference="cmn_location" type="reference"/>
+        <element default="javascript: var userDepartmentHead;&#13;&#10;&#13;&#10;&#13;&#10;var user = new GlideRecord('sys_user');&#13;&#10;&#13;&#10;&#13;&#10;if (user.get(gs.getUserID()))&#13;&#10;&#13;&#10;&#13;&#10;{userDepartmentHead = user.department.dept_head};&#13;&#10;&#13;&#10;&#13;&#10;userDepartmentHead;&#13;&#10;&#13;&#10;" label="Verantwortlich" max_length="32" name="verantwortlich" reference="sys_user" reference_floats="true" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
+        <element label="Ausgangsort" max_length="32" name="von" reference="cmn_location" type="reference"/>
+        <element label="Reiseziel" max_length="32" name="ziel" reference="cmn_location" type="reference"/>
         <index name="index">
             <element name="von"/>
         </index>
