@@ -42,7 +42,7 @@
         <update_guid_history>683139ada04790106451be907cd557b0:543011347</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526765_reisemngr_reisekostenabrechnung.x_526765_reisemngr.reisekostenabrechnun">40cac3692f4b90106fb0de1a2799b6b5</sys_audit_delete>
+        <sys_audit_delete display_value="">40cac3692f4b90106fb0de1a2799b6b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 16:54:42</sys_created_on>
