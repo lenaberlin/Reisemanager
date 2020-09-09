@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_526765_reisemngr_reiseantrag</name>
+        <name>x_526765_reisemngr_reisekostenabrechnung</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-04 10:22:49</sys_created_on>
-        <sys_id>f6abba83db031010eadaa0f2ca96192c</sys_id>
+        <sys_created_on>2020-09-04 10:23:26</sys_created_on>
+        <sys_id>6b9a1b432f4310106fb0de1a2799b69c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_526765_reisemngr_reiseantrag</sys_name>
+        <sys_name>x_526765_reisemngr_reisekostenabrechnung</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>ua_table_licensing_config_f6abba83db031010eadaa0f2ca96192c</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_6b9a1b432f4310106fb0de1a2799b69c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 10:22:49</sys_updated_on>
+        <sys_updated_on>2020-09-04 10:23:26</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

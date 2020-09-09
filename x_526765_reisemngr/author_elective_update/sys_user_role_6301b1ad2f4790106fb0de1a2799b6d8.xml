@@ -49,7 +49,7 @@
         <update_guid_history>e701b1ad6f4790102014a09d518bcbdb:-395299102</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">eccbb2212f4b90106fb0de1a2799b6f3</sys_audit_delete>
+        <sys_audit_delete display_value="x_526765_reisemngr.reiseantrag_user">eccbb2212f4b90106fb0de1a2799b6f3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 15:49:11</sys_created_on>
