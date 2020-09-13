@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_526765_reisemngr_reiseantrag</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>${name} wartet auf Reiseantragsgenehmigung.</p>
+<p>Auftragsnummer: ${auftragsnummer}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Reiseantraganfrage</name>
+        <sms_alternate/>
+        <subject>Reiseantrag - ${auftragsnummer}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 10:29:15</sys_created_on>
+        <sys_id>ca9bfeb92f83d0106fb0de1a2799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reiseantraganfrage</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sysevent_email_template_ca9bfeb92f83d0106fb0de1a2799b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-05 10:29:15</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sysevent_email_template_ca9bfeb92f83d0106fb0de1a2799b66e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;
+    &lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;
+        &lt;collection&gt;x_526765_reisemngr_reiseantrag&lt;/collection&gt;
+        &lt;email_layout/&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;${name} wartet auf Reiseantragsgenehmigung.&lt;/p&gt;
+&lt;p&gt;Auftragsnummer: ${auftragsnummer}&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;Reiseantraganfrage&lt;/name&gt;
+        &lt;sms_alternate/&gt;
+        &lt;subject&gt;Reiseantrag - ${auftragsnummer}&lt;/subject&gt;
+        &lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-05 10:29:15&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;ca9bfeb92f83d0106fb0de1a2799b66e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Reiseantraganfrage&lt;/sys_name&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_template_ca9bfeb92f83d0106fb0de1a2799b66e&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-05 10:29:15&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+    &lt;/sysevent_email_template&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1479688934</payload_hash>
+        <record_name>Reiseantraganfrage</record_name>
+        <reverted_from/>
+        <source>dab4431c2fdb50106fb0de1a2799b663</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 05:32:23</sys_created_on>
+        <sys_id>c5e4cb1c2fdb50106fb0de1a2799b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17485f338800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 05:32:23</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>45e4cb1cb6db5010432f4f766e68c04e</update_guid>
+        <update_guid_history>45e4cb1cb6db5010432f4f766e68c04e:0,8cd4871c0fdb5010cd25a8583dae1b85:882745792,39aadb43924310105e0b6ba25348fefd:0,e99a9743b2431010e02cf6c7b9b1a5d4:882745792,227522ee714f14102b57792bdd9ce3e7:0,16652eae9c4f14105f120d0ddd95428a:882745792,731c36f9fb83d01017a01df47f505048:365316300</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 20:26:43</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>029f48722179405c810f0867298750c4</sys_id>
+        <sys_metadata>ca9bfeb92f83d0106fb0de1a2799b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reiseantraganfrage</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_ca9bfeb92f83d0106fb0de1a2799b66e</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_ca9bfeb92f83d0106fb0de1a2799b66e">c5e4cb1c2fdb50106fb0de1a2799b64e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 20:26:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

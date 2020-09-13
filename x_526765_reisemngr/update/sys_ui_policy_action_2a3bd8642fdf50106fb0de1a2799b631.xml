@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>erklaerung_zu_kosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 11:49:36</sys_created_on>
+        <sys_id>2a3bd8642fdf50106fb0de1a2799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>erklaerung_zu_kosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2a3bd8642fdf50106fb0de1a2799b631</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 11:49:36</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Felder deaktivieren">3e5a10642fdf50106fb0de1a2799b6ba</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

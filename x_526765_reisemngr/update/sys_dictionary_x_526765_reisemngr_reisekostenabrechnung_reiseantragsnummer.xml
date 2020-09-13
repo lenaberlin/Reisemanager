@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="verantwortlich" table="x_526765_reisemngr_reiseantrag">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="reiseantragsnummer" table="x_526765_reisemngr_reisekostenabrechnung">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,56 +14,54 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Verantwortlich</column_label>
+        <column_label>Reiseantragsnummer</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>verantwortlich</element>
+        <element>reiseantragsnummer</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
-        <name>x_526765_reisemngr_reiseantrag</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_526765_reisemngr_reisekostenabrechnung</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
-        <reference_floats>true</reference_floats>
+        <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>roles=x_526765_reisemngr.Vorgesetzter^EQ</reference_qual>
-        <reference_qual_condition table="sys_user">roles=x_526765_reisemngr.Vorgesetzter^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_526765_reisemngr.Vorgesetzter"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-04 21:49:51</sys_created_on>
-        <sys_id>1ad40b1c2fdb50106fb0de1a2799b69d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>Verantwortlich</sys_name>
+        <sys_created_on>2020-09-13 16:48:21</sys_created_on>
+        <sys_id>046f51602f9390106fb0de1a2799b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reiseantragsnummer</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_verantwortlich</sys_update_name>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_reiseantragsnummer</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-13 12:37:11</sys_updated_on>
+        <sys_updated_on>2020-09-13 16:48:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

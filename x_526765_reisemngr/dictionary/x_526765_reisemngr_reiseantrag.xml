@@ -22,10 +22,10 @@
             <choice>
                 <element inactive_on_update="false" label="Abgelehnt" value="-1.0"/>
                 <element inactive_on_update="false" label="Abgerechnet" value="5"/>
-                <element inactive_on_update="false" label="Abgeschlossen" value="4"/>
                 <element inactive_on_update="false" label="Beantragt" value="2"/>
                 <element inactive_on_update="false" label="Entwurf" value="1"/>
                 <element inactive_on_update="false" label="Genehmigt" value="3"/>
+                <element inactive_on_update="false" label="Zurückgekehrt" value="4"/>
             </choice>
         </element>
         <element label="Verantwortlich" mandatory="true" max_length="32" name="verantwortlich" reference="sys_user" reference_floats="true" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>

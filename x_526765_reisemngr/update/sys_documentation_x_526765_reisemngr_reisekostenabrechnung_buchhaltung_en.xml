@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="buchhaltung" label="Buchhaltung" language="en" table="x_526765_reisemngr_reisekostenabrechnung">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>buchhaltung</element>
+            <help/>
+            <hint/>
+            <label>Buchhaltung</label>
+            <language>en</language>
+            <name>x_526765_reisemngr_reisekostenabrechnung</name>
+            <plural>Buchhaltungs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-13 18:11:21</sys_created_on>
+            <sys_id>669235ac2f9390106fb0de1a2799b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Buchhaltung</sys_name>
+            <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+            <sys_update_name>sys_documentation_x_526765_reisemngr_reisekostenabrechnung_buchhaltung_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-13 18:11:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
