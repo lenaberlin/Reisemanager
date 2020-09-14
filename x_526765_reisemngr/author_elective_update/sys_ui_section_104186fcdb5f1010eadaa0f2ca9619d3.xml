@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Bankdaten" section_id="104186fcdb5f1010eadaa0f2ca9619d3" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iban</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-14 17:15:09</sys_created_on>
+            <sys_id>d55f2a302fdf90106fb0de1a2799b6f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-14 17:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bic</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-14 17:15:09</sys_created_on>
+            <sys_id>595f2a302fdf90106fb0de1a2799b6f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-14 17:15:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-14 17:15:09</sys_created_on>
+            <sys_id>d95f2a302fdf90106fb0de1a2799b6f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-14 17:15:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Bankdaten</caption>
+            <header>false</header>
+            <name>x_526765_reisemngr_reisekostenabrechnung</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-14 13:53:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>104186fcdb5f1010eadaa0f2ca9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bankdaten</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+            <sys_update_name>sys_ui_section_104186fcdb5f1010eadaa0f2ca9619d3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-14 13:53:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_section_104186fcdb5f1010eadaa0f2ca9619d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Bankdaten" section_id="104186fcdb5f1010eadaa0f2ca9619d3" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>iban</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-14 17:15:09</sys_created_on><sys_id>d55f2a302fdf90106fb0de1a2799b6f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-14 17:15:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bic</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-14 17:15:09</sys_created_on><sys_id>595f2a302fdf90106fb0de1a2799b6f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-14 17:15:09</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-14 17:15:09</sys_created_on><sys_id>d95f2a302fdf90106fb0de1a2799b6f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-14 17:15:09</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Bankdaten</caption><header>false</header><name>x_526765_reisemngr_reisekostenabrechnung</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-14 13:53:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>104186fcdb5f1010eadaa0f2ca9619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bankdaten</sys_name><sys_overrides/><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_ui_section_104186fcdb5f1010eadaa0f2ca9619d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-14 13:53:50</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1103316037</payload_hash>
+        <record_name>Reisekostenabrechnung</record_name>
+        <reverted_from/>
+        <source>fa5f4e742f5f90106fb0de1a2799b613</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 17:15:09</sys_created_on>
+        <sys_id>d15f2a302fdf90106fb0de1a2799b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d9cfbf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 17:15:09</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5d5f2a30d7df901057bf725cda0a8dfa</update_guid>
+        <update_guid_history>5d5f2a30d7df901057bf725cda0a8dfa:-1103316037,dd0f6630e5df9010824d63bd6426381d:-355297639,076fce78ca5f90108ed610d3b024b8ac:131621744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 17:15:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>cdd243c9b9b04d4bab07bc7985e76df9</sys_id>
+        <sys_metadata>104186fcdb5f1010eadaa0f2ca9619d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bankdaten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_section_104186fcdb5f1010eadaa0f2ca9619d3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_104186fcdb5f1010eadaa0f2ca9619d3">d15f2a302fdf90106fb0de1a2799b6fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 17:15:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
