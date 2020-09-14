@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>geschaetzte_fahrtkosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 13:16:53</sys_created_on>
+        <sys_id>413fa4e02f1390106fb0de1a2799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>geschaetzte_fahrtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_413fa4e02f1390106fb0de1a2799b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 13:16:53</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Felder deaktivieren">c13f20e02f1390106fb0de1a2799b6cb</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_policy_action_413fa4e02f1390106fb0de1a2799b68e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>geschaetzte_fahrtkosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 13:16:53</sys_created_on>
+        <sys_id>413fa4e02f1390106fb0de1a2799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>geschaetzte_fahrtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_413fa4e02f1390106fb0de1a2799b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 13:16:53</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Felder deaktivieren">c13f20e02f1390106fb0de1a2799b6cb</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1129702931</payload_hash>
+        <record_name>geschaetzte_fahrtkosten</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:43</sys_created_on>
+        <sys_id>226fce782f5f90106fb0de1a2799b657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d53120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ae6fce78bb5f9010399d154a0d8e0656</update_guid>
+        <update_guid_history>ae6fce78bb5f9010399d154a0d8e0656:0,c37f5e6883179010ba02bdcb557444c8:-35171715,d82296a0cd1790108248e64e4f6193f3:0,553fa4e07f13901005eb41880b9e9c8f:867644673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 16:57:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>894a04cf30b64ccbbabb7cd321afee01</sys_id>
+        <sys_metadata>413fa4e02f1390106fb0de1a2799b68e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>geschaetzte_fahrtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_413fa4e02f1390106fb0de1a2799b68e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_413fa4e02f1390106fb0de1a2799b68e">226fce782f5f90106fb0de1a2799b657</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 16:57:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>gesamtkosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 13:16:53</sys_created_on>
+        <sys_id>593fa4e02f1390106fb0de1a2799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_593fa4e02f1390106fb0de1a2799b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 13:16:53</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Felder deaktivieren">c13f20e02f1390106fb0de1a2799b6cb</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_policy_action_593fa4e02f1390106fb0de1a2799b696</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>gesamtkosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 13:16:53</sys_created_on>
+        <sys_id>593fa4e02f1390106fb0de1a2799b696</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_593fa4e02f1390106fb0de1a2799b696</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 13:16:53</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Felder deaktivieren">c13f20e02f1390106fb0de1a2799b6cb</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-706051665</payload_hash>
+        <record_name>gesamtkosten</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:44</sys_created_on>
+        <sys_id>7e6fce782f5f90106fb0de1a2799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d559a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:44</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>fa6fce78d65f901087844f4c8dc2766b</update_guid>
+        <update_guid_history>fa6fce78d65f901087844f4c8dc2766b:0,0b7f9ea8d8179010660ac7fe22731ab1:614041202,d422d6a028179010871e77845f823009:0,5d3fa4e0b6139010a4d4ef43dee5c797:235852867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 16:57:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>ebbd2ba93b5141b09796b9c62cefb344</sys_id>
+        <sys_metadata>593fa4e02f1390106fb0de1a2799b696</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_593fa4e02f1390106fb0de1a2799b696</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_593fa4e02f1390106fb0de1a2799b696">7e6fce782f5f90106fb0de1a2799b66b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 16:57:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

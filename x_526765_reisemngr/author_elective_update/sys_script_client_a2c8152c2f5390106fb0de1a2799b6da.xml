@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>erklaerung_zu_kosten</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change Name of submit buttopn</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+//var button = document.getElementById('submit_button');
+//button.textContent = "Save as Draft";
+//button.textContent = "Not submit";
+document.getElementById('submit_button').innerHTML='New Button Name';
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-13 16:19:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2c8152c2f5390106fb0de1a2799b6da</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Change Name of submit buttopn</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_a2c8152c2f5390106fb0de1a2799b6da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-13 16:29:38</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_script_client_a2c8152c2f5390106fb0de1a2799b6da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field&gt;erklaerung_zu_kosten&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Change Name of submit buttopn&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+//var button = document.getElementById('submit_button');
+//button.textContent = "Save as Draft";
+//button.textContent = "Not submit";
+document.getElementById('submit_button').innerHTML='New Button Name';
+  
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-13 16:19:51&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;a2c8152c2f5390106fb0de1a2799b6da&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Change Name of submit buttopn&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_a2c8152c2f5390106fb0de1a2799b6da&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-13 16:29:38&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_526765_reisemngr_reiseantrag&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>535824436</payload_hash>
+        <record_name>Change Name of submit buttopn</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:39</sys_created_on>
+        <sys_id>b56f8e782f5f90106fb0de1a2799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d44e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>356f8e78fb5f90103e77b3dbbda62b7f</update_guid>
+        <update_guid_history>356f8e78fb5f90103e77b3dbbda62b7f:0,fa4f86781c5f901097c34a2a4b1ce4fa:-1136054462,fb1256a0f4179010c0166c7e865ce7ec:0,a30212a0f91790103e4d2259fdbbc171:-1136054462,285b91ac5a539010f2160f9cbcc0fe48:613854542,c8aa9d2c88539010cc917b231d8d5e17:-1961800139,3059992c0953901034981ca6954a272b:2018849782,1119592ccc5390105069b83bfc211db3:1705358838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 16:57:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>447477c4994e4c00944ca8561ce67de4</sys_id>
+        <sys_metadata>a2c8152c2f5390106fb0de1a2799b6da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Name of submit buttopn</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_client_a2c8152c2f5390106fb0de1a2799b6da</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a2c8152c2f5390106fb0de1a2799b6da">b56f8e782f5f90106fb0de1a2799b67f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 16:57:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
