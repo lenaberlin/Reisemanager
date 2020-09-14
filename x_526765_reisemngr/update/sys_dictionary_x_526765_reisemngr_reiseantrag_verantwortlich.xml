@@ -6,9 +6,26 @@
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
+  var userID = current.sys_id;
 
-	// Add your code here
-	return '';  // return the calculated value
+     var grm = new GlideRecord('sys_user_grmember');
+     grm.addQuery('user', userID);
+     grm.query();
+     while (grm.next())
+     {
+        var mem = new GlideRecord('sys_user_grmember');
+        mem.addQuery('group', grm.group);
+        mem.query();
+        while (mem.next()) {
+
+        var uhrRec = new GlideRecord('sys_user_has_role');
+			uhrRec.addQuery('user', mem.getValue('user'));
+			uhrRec.addQuery('role.name', "x_526765_reisemngr.Vorgesetzter");
+			uhrRec.query();
+			if(uhrRec.hasNext()== true) return mem.getValue('user');
+        }
+    }
+
 
 })(current);]]></calculation>
         <choice/>
@@ -17,7 +34,16 @@
         <column_label>Verantwortlich</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript: var userDepartmentHead;&#13;
+&#13;
+var user = new GlideRecord('sys_user');&#13;
+&#13;
+if (user.get(gs.getUserID()))&#13;
+&#13;
+{userDepartmentHead = user.department.dept_head};&#13;
+&#13;
+userDepartmentHead;&#13;
+</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -38,7 +64,7 @@
         <name>x_526765_reisemngr_reiseantrag</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
@@ -55,15 +81,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 21:49:51</sys_created_on>
-        <sys_id>1ad40b1c2fdb50106fb0de1a2799b69d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_id>69a868b0db9b1010eadaa0f2ca96193e</sys_id>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Verantwortlich</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_verantwortlich</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-13 12:37:11</sys_updated_on>
+        <sys_updated_on>2020-09-14 12:20:31</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

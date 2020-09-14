@@ -14,6 +14,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-05 11:54:07</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-14 13:53:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>984186fcdb5f1010eadaa0f2ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_526765_reisemngr_reisekostenabrechnung" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">c38f03792fc3d0106fb0de1a2799b64e</sys_ui_form>
+            <sys_ui_section caption="Bankdaten" display_value="Bankdaten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">104186fcdb5f1010eadaa0f2ca9619d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-14 13:53:50</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_526765_reisemngr_reisekostenabrechnung</name>
             <roles/>

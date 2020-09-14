@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" sizeclass="5" type="collection">
+    <element label="Reiseantrag" max_length="40" name="x_526765_reisemngr_reiseantrag" sizeclass="0" type="collection">
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Auftragsnummer" max_length="40" name="auftragsnummer" read_only="true" type="string"/>
         <element label="Enddatum" max_length="40" name="enddatum" type="glide_date"/>
         <element label="Anmerkungen" max_length="4000" name="erklaerung_zu_kosten" type="string"/>
@@ -28,7 +28,7 @@
                 <element inactive_on_update="false" label="Zurückgekehrt" value="4"/>
             </choice>
         </element>
-        <element label="Verantwortlich" mandatory="true" max_length="32" name="verantwortlich" reference="sys_user" reference_floats="true" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;  var userID = current.sys_id;&#13;&#10;&#13;&#10;     var grm = new GlideRecord('sys_user_grmember');&#13;&#10;     grm.addQuery('user', userID);&#13;&#10;     grm.query();&#13;&#10;     while (grm.next())&#13;&#10;     {&#13;&#10;        var mem = new GlideRecord('sys_user_grmember');&#13;&#10;        mem.addQuery('group', grm.group);&#13;&#10;        mem.query();&#13;&#10;        while (mem.next()) {&#13;&#10;&#13;&#10;        var uhrRec = new GlideRecord('sys_user_has_role');&#13;&#10;&#9;&#9;&#9;uhrRec.addQuery('user', mem.getValue('user'));&#13;&#10;&#9;&#9;&#9;uhrRec.addQuery('role.name', &quot;x_526765_reisemngr.Vorgesetzter&quot;);&#13;&#10;&#9;&#9;&#9;uhrRec.query();&#13;&#10;&#9;&#9;&#9;if(uhrRec.hasNext()== true) return mem.getValue('user');&#13;&#10;        }&#13;&#10;    }&#13;&#10;&#13;&#10;&#13;&#10;})(current);" default="javascript: var userDepartmentHead;&#13;&#10;&#13;&#10;var user = new GlideRecord('sys_user');&#13;&#10;&#13;&#10;if (user.get(gs.getUserID()))&#13;&#10;&#13;&#10;{userDepartmentHead = user.department.dept_head};&#13;&#10;&#13;&#10;userDepartmentHead;&#13;&#10;" label="Verantwortlich" mandatory="true" max_length="32" name="verantwortlich" read_only="true" reference="sys_user" reference_floats="true" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
         <element label="Ausgangsort" max_length="32" name="von" reference="cmn_location" type="reference"/>
         <element label="Reiseziel" max_length="32" name="ziel" reference="cmn_location" type="reference"/>
         <index name="index">
