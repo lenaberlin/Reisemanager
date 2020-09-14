@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 17:47:42</sys_created_on>
+        <sys_id>ea45f6f02fdf90106fb0de1a2799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_526765_reisemngr.Benutzer</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_ui_action display_value="Reisekostenabrechnung">79453a342fdf90106fb0de1a2799b648</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_ea45f6f02fdf90106fb0de1a2799b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 17:47:42</sys_updated_on>
+        <sys_user_role display_value="x_526765_reisemngr.Benutzer" name="x_526765_reisemngr.Benutzer">b0ad612d2f4790106fb0de1a2799b62e</sys_user_role>
+    </sys_ui_action_role>
+</record_update>
