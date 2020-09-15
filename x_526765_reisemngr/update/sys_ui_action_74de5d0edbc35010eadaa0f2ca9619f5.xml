@@ -6,7 +6,7 @@
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
-        <comments>Saves a new record and redirects back to previous screen (usually a list).</comments>
+        <comments>Speichert einen neuen Datensatz und leitet zurück zum vorherigen Bildschirm </comments>
         <condition>current.canCreate() &amp;&amp; current.status == 1</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -38,7 +38,7 @@ else{
 	var au = new ActionUtils();
 	au.postInsert(current);
 }
-//gs.eventQueue("x_526765_reisemngr.Verantwortlich_Nachri", current);]]></script>
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -49,15 +49,15 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74de5d0edbc35010eadaa0f2ca9619f5</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Beantragen</sys_name>
-        <sys_overrides/>
+        <sys_overrides display_value="Submit">42da42d00a0a0b340066377beb6dd099</sys_overrides>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_ui_action_74de5d0edbc35010eadaa0f2ca9619f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-07 12:22:10</sys_updated_on>
+        <sys_updated_on>2020-09-15 13:33:07</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

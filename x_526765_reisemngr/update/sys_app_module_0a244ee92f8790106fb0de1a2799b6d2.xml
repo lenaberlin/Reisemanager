@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a244ee92f8790106fb0de1a2799b6d2</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Reiseanträge verwalten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_app_module_0a244ee92f8790106fb0de1a2799b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-14 14:24:51</sys_updated_on>
+        <sys_updated_on>2020-09-15 11:21:47</sys_updated_on>
         <timeline_page/>
         <title>Reiseanträge verwalten</title>
         <uncancelable>false</uncancelable>

@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments>Saves a new record and redirects back to previous screen (usually a list).</comments>
-        <condition/>
+        <condition> current.status ==  -1 || current.status == 1</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -49,7 +49,7 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41b06d602f9390106fb0de1a2799b6e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Beantragen</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -57,7 +57,7 @@ else{
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_ui_action_41b06d602f9390106fb0de1a2799b6e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-13 16:54:08</sys_updated_on>
+        <sys_updated_on>2020-09-15 11:45:20</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

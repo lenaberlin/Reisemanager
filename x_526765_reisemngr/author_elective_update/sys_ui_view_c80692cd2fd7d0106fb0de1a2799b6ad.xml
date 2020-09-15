@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>test</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 10:02:57</sys_created_on>
+        <sys_id>c80692cd2fd7d0106fb0de1a2799b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_view_c80692cd2fd7d0106fb0de1a2799b6ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 10:02:57</sys_updated_on>
+        <title>test</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_view_c80692cd2fd7d0106fb0de1a2799b6ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>test</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-15 10:02:57</sys_created_on><sys_id>c80692cd2fd7d0106fb0de1a2799b6ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sys_ui_view_c80692cd2fd7d0106fb0de1a2799b6ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-15 10:02:57</sys_updated_on><title>test</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>1344733171</payload_hash>
+        <record_name>test</record_name>
+        <reverted_from/>
+        <source>fa5f4e742f5f90106fb0de1a2799b613</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 10:02:57</sys_created_on>
+        <sys_id>440692cd2fd7d0106fb0de1a2799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749137a7f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 10:02:57</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>8c0692cd57d7d01086116a6b006119ae</update_guid>
+        <update_guid_history>8c0692cd57d7d01086116a6b006119ae:1344733171</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 11:12:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>099d56f07ed04bd093a0e46ed8178010</sys_id>
+        <sys_metadata>c80692cd2fd7d0106fb0de1a2799b6ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_view_c80692cd2fd7d0106fb0de1a2799b6ad</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_c80692cd2fd7d0106fb0de1a2799b6ad">440692cd2fd7d0106fb0de1a2799b6af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 11:12:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
