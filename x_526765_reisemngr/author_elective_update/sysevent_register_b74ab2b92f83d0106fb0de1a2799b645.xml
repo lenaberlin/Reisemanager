@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>Triggerr email Benachrichtigungen für die Verantwortlichen</description>
+        <event_name>x_526765_reisemngr.Verantwortlich_Nachri</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>Verantwortlich_Nachricht</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 10:22:49</sys_created_on>
+        <sys_id>b74ab2b92f83d0106fb0de1a2799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_reisemngr.Verantwortlich_Nachri</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sysevent_register_b74ab2b92f83d0106fb0de1a2799b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-05 10:22:49</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+    </sysevent_register>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sysevent_register_b74ab2b92f83d0106fb0de1a2799b645</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>Triggerr email Benachrichtigungen für die Verantwortlichen</description>
+        <event_name>x_526765_reisemngr.Verantwortlich_Nachri</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>Verantwortlich_Nachricht</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-05 10:22:49</sys_created_on>
+        <sys_id>b74ab2b92f83d0106fb0de1a2799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_reisemngr.Verantwortlich_Nachri</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sysevent_register_b74ab2b92f83d0106fb0de1a2799b645</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-05 10:22:49</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+    </sysevent_register>
+</record_update>]]></payload>
+        <payload_hash>-124457506</payload_hash>
+        <record_name>x_526765_reisemngr.Verantwortlich_Nachri</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:46</sys_created_on>
+        <sys_id>576f02b82f5f90106fb0de1a2799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d5e660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:46</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>d36f02b84f5f90101c6aa4b233c39208</update_guid>
+        <update_guid_history>d36f02b84f5f90101c6aa4b233c39208:0,4211eee8ee1790101771e5794faa2014:1215169259,2822d6a06b17901077ffbe8e46c2f162:0,841212a0af179010a36dccaf943049eb:-1845165252,4de4cb1c12db501092d9acaf743cc450:0,bbc4871c3adb5010707c2f80f80fad6f:-1845165252,31aa1f43a5431010b90b39c4d993df00:0,699a9743ef4310104af2ea0bd3e08bcc:-1845165252,2a7522ee614f14101bd5211b4b700fe9:0,46652eae494f141090fb0a4586422d7d:-1845165252,61aa3e39c583d010c5b27f364c30eb12:1494604872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 20:18:17</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>01b2917bec6949bd802f35dd6c728181</sys_id>
+        <sys_metadata>b74ab2b92f83d0106fb0de1a2799b645</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526765_reisemngr.Verantwortlich_Nachri</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sysevent_register_b74ab2b92f83d0106fb0de1a2799b645</sys_update_name>
+        <sys_update_version display_value="sysevent_register_b74ab2b92f83d0106fb0de1a2799b645">576f02b82f5f90106fb0de1a2799b608</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 20:18:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

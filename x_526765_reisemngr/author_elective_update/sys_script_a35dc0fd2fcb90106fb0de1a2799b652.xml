@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526765_reisemngr_reiseantrag</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_526765_reisemngr_reiseantrag">verantwortlichISNOTEMPTY^ORverantwortlichVALCHANGES^status=2^EQ<item endquery="false" field="verantwortlich" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="verantwortlich" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/>
+            <item display_value="Beantragt" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Email für Reiseantrag</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+		gs.eventQueue("x_526765_reisemngr.Verantwortlich_Nachri", current);
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 21:50:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a35dc0fd2fcb90106fb0de1a2799b652</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Email für Reiseantrag</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_a35dc0fd2fcb90106fb0de1a2799b652</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2020-09-09 07:50:20</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=a35dc0fd2fcb90106fb0de1a2799b652"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_script_a35dc0fd2fcb90106fb0de1a2799b652</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;
+    &lt;sys_script action="INSERT_OR_UPDATE"&gt;
+        &lt;abort_action&gt;false&lt;/abort_action&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;action_delete&gt;false&lt;/action_delete&gt;
+        &lt;action_insert&gt;true&lt;/action_insert&gt;
+        &lt;action_query&gt;false&lt;/action_query&gt;
+        &lt;action_update&gt;true&lt;/action_update&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;add_message&gt;false&lt;/add_message&gt;
+        &lt;advanced&gt;true&lt;/advanced&gt;
+        &lt;change_fields&gt;false&lt;/change_fields&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;collection&gt;x_526765_reisemngr_reiseantrag&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;execute_function&gt;false&lt;/execute_function&gt;
+        &lt;filter_condition table="x_526765_reisemngr_reiseantrag"&gt;verantwortlichISNOTEMPTY^ORverantwortlichVALCHANGES^status=2^EQ&lt;item endquery="false" field="verantwortlich" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;
+            &lt;item endquery="false" field="verantwortlich" goto="false" newquery="false" operator="VALCHANGES" or="true" value=""/&gt;
+            &lt;item display_value="Beantragt" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="2"/&gt;
+            &lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;
+        &lt;/filter_condition&gt;
+        &lt;is_rest&gt;false&lt;/is_rest&gt;
+        &lt;message/&gt;
+        &lt;name&gt;Email für Reiseantrag&lt;/name&gt;
+        &lt;order&gt;200&lt;/order&gt;
+        &lt;priority&gt;100&lt;/priority&gt;
+        &lt;rest_method/&gt;
+        &lt;rest_method_text/&gt;
+        &lt;rest_service/&gt;
+        &lt;rest_service_text/&gt;
+        &lt;rest_variables/&gt;
+        &lt;role_conditions/&gt;
+        &lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+
+		gs.eventQueue("x_526765_reisemngr.Verantwortlich_Nachri", current);
+
+
+})(current, previous);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-04 21:50:10&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;a35dc0fd2fcb90106fb0de1a2799b652&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Email für Reiseantrag&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_a35dc0fd2fcb90106fb0de1a2799b652&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;abel.tuter&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-09 07:50:20&lt;/sys_updated_on&gt;
+        &lt;template/&gt;
+        &lt;when&gt;after&lt;/when&gt;
+    &lt;/sys_script&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=a35dc0fd2fcb90106fb0de1a2799b652"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1473145129</payload_hash>
+        <record_name>Email für Reiseantrag</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:39</sys_created_on>
+        <sys_id>f56f8e782f5f90106fb0de1a2799b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d43c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:39</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>756f8e784b5f9010090ee6c949dae974</update_guid>
+        <update_guid_history>756f8e784b5f9010090ee6c949dae974:0,09ad1e683817901081d96d05b6fbbab6:693233476,bf1256a0f1179010a71c04ae21c8bac8:0,6f0212a0e9179010ae40acfab7bdc57b:739853785,80e48b1c7fdb501064a3a8413cb8e188:0,4bc4871cc7db50106089e8a2b86eb50b:739853785,cdaa9b431f4310102247b51509a23773:0,819a9743fe431010a9f5f176f7e1253a:217114884,e175eeae074f1410ff723e1db9eb15f4:0,bb55aaaee84f1410f7410b03710b11a1:-550906114,f53bbab91d83d01088e2e0b3b97722f4:-233951124,638832798c83d010bef9fcdefacc9a96:1783098325,5da7b639ca83d0100c2a0a26b513f0b5:1177202347,b7cf4075cf0f90109c9cdce5d43b6774:-1809186803,986e44358e0f9010ff8c41438aa1ec0f:1651162781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 20:19:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>49698895ddfb42a88d18d1e560190010</sys_id>
+        <sys_metadata>a35dc0fd2fcb90106fb0de1a2799b652</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email für Reiseantrag</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_a35dc0fd2fcb90106fb0de1a2799b652</sys_update_name>
+        <sys_update_version display_value="sys_script_a35dc0fd2fcb90106fb0de1a2799b652">f56f8e782f5f90106fb0de1a2799b674</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 20:19:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
