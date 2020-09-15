@@ -4,13 +4,13 @@
             <element>.split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>cec54831dbc7101023d3dde748961995</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>383d04112f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>geschaetze_geb_hren</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>86c54831dbc7101023d3dde748961996</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>b83d04112f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>geschaetzte_unterkunftskosten</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>0ac54831dbc7101023d3dde748961996</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>3c3d04112f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>geschaetzte_fahrtkosten</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>8ac54831dbc7101023d3dde748961996</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>bc3d04112f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>gesamtkosten</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>0ec54831dbc7101023d3dde748961996</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>303d04112f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,29 +74,57 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>8ec54831dbc7101023d3dde748961996</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>b03d04112f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>erklaerung_zu_kosten</element>
+            <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-04 21:12:36</sys_created_on>
-            <sys_id>02c54831dbc7101023d3dde748961997</sys_id>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>343d04112f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-04 21:12:36</sys_updated_on>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>erklaerung_zu_kosten</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>b43d04112f5fd0106fb0de1a2799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 18:43:45</sys_created_on>
+            <sys_id>383d04112f5fd0106fb0de1a2799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Angaben zu den Kosten" display_value="Angaben zu den Kosten" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">78d102e92f8790106fb0de1a2799b640</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 18:43:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Angaben zu den Kosten</caption>

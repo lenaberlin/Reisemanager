@@ -2,108 +2,123 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>name</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>reiseantragsnummer</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>6a60e9602f9390106fb0de1a2799b61b</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>abab1c992f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>reiseantragsnummer</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>auftragsnummer</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>ea60e9602f9390106fb0de1a2799b61b</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>2fab1c992f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>auftragsnummer</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>test</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>6e60e9602f9390106fb0de1a2799b61b</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>afab1c992f5fd0106fb0de1a2799b615</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>gebuehren</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>fahrtkosten</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>ee60e9602f9390106fb0de1a2799b61b</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>23ab1c992f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>fahrtkosten</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>unterkunftskosten</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>6260e9602f9390106fb0de1a2799b61c</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>a3ab1c992f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>unterkunftskosten</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <element>gebuehren</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>e260e9602f9390106fb0de1a2799b61c</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>27ab1c992f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae60e9602f9390106fb0de1a2799b61a</list_id>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
-            <sys_id>6660e9602f9390106fb0de1a2799b61c</sys_id>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>a7ab1c992f5fd0106fb0de1a2799b616</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vorgesetzter</element>
+            <list_id display_value="x_526765_reisemngr_reisekostenabrechnung" element="NULL" name="x_526765_reisemngr_reisekostenabrechnung" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">efab1c992f5fd0106fb0de1a2799b614</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
+            <sys_id>2bab1c992f5fd0106fb0de1a2799b616</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +132,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-13 16:51:53</sys_created_on>
+            <sys_created_on>2020-09-15 19:47:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ae60e9602f9390106fb0de1a2799b61a</sys_id>
+            <sys_id>efab1c992f5fd0106fb0de1a2799b614</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_526765_reisemngr_reisekostenabrechnung</sys_name>
             <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -128,7 +143,7 @@
             <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
             <sys_update_name>sys_ui_list_x_526765_reisemngr_reisekostenabrechnung_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-13 16:51:53</sys_updated_on>
+            <sys_updated_on>2020-09-15 19:47:01</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

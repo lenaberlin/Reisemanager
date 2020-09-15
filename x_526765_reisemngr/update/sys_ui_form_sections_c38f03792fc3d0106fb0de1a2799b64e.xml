@@ -56,6 +56,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-14 17:15:53</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>341d40112f5fd0106fb0de1a2799b6f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_526765_reisemngr_reisekostenabrechnung" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">c38f03792fc3d0106fb0de1a2799b64e</sys_ui_form>
+            <sys_ui_section caption="IV. Gesamte Reisekosten" display_value="IV. Gesamte Reisekosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">b01d40112f5fd0106fb0de1a2799b6ef</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_526765_reisemngr_reisekostenabrechnung</name>
             <roles/>

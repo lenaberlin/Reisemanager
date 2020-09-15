@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_526765_reisemngr_reiseantrag" version="2" view="meine_reiseanträge">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>auftragsnummer</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>3339170d2f9bd0106fb0de1a2799b6f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reisezweck</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>b339170d2f9bd0106fb0de1a2799b6f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>3b391b0d2f9bd0106fb0de1a2799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>startdatum</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>bb391b0d2f9bd0106fb0de1a2799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>enddatum</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>3f391b0d2f9bd0106fb0de1a2799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ziel</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>bf391b0d2f9bd0106fb0de1a2799b6a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>gesamtkosten</element>
+            <list_id display_value="x_526765_reisemngr_reiseantrag" element="NULL" name="x_526765_reisemngr_reiseantrag" parent="NULL" relationship="NULL" sys_domain="global" view="65669b492f9bd0106fb0de1a2799b674">7739170d2f9bd0106fb0de1a2799b6f3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_id>33391b0d2f9bd0106fb0de1a2799b6a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_526765_reisemngr_reiseantrag</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-15 14:56:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7739170d2f9bd0106fb0de1a2799b6f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_526765_reisemngr_reiseantrag</sys_name>
+            <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+            <sys_update_name>sys_ui_list_x_526765_reisemngr_reiseantrag_meine_reiseanträge</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-15 14:56:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Meine Reiseanträge" name="meine_reiseanträge">65669b492f9bd0106fb0de1a2799b674</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

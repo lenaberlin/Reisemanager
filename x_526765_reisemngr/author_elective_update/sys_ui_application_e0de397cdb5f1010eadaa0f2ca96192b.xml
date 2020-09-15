@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Reisemanager</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 13:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0de397cdb5f1010eadaa0f2ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reisemanager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_application_e0de397cdb5f1010eadaa0f2ca96192b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 13:43:12</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_ui_application_e0de397cdb5f1010eadaa0f2ca96192b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Reisemanager</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 13:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0de397cdb5f1010eadaa0f2ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reisemanager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_application_e0de397cdb5f1010eadaa0f2ca96192b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 13:43:12</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>1783093416</payload_hash>
+        <record_name>Reisemanager</record_name>
+        <reverted_from/>
+        <source>7a3f82782f5f90106fb0de1a2799b6b8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-14 14:55:42</sys_created_on>
+        <sys_id>d26fce782f5f90106fb0de1a2799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1748d1d4e2b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-14 14:55:42</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>926fce78255f901077d029c28077f60c</update_guid>
+        <update_guid_history>926fce78255f901077d029c28077f60c:1783093416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 19:49:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>0ee9b41595894ad18db022227f675a81</sys_id>
+        <sys_metadata>e0de397cdb5f1010eadaa0f2ca96192b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reisemanager</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_application_e0de397cdb5f1010eadaa0f2ca96192b</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_e0de397cdb5f1010eadaa0f2ca96192b">d26fce782f5f90106fb0de1a2799b60c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 19:49:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

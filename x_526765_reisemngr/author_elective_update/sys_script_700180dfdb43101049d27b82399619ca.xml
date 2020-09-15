@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526765_reisemngr_reisekostenabrechnung</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_526765_reisemngr_reisekostenabrechnung">statusCHANGESTO4^EQ<item display_value="Abgeschlossen" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>es ist geändertsich 1</p>
+<p><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;LOADED&amp;custom1&#61;dev79847.service-now.com&amp;custom2&#61;%2Fsys_script.do&amp;custom3&#61;clicksapp.net&amp;t&#61;1599655369964" /><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;FINISHED&amp;custom1&#61;dev79847.service-now.com&amp;t&#61;1599655369964" /></p>
+<p><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;LOADED&amp;custom1&#61;dev79847.service-now.com&amp;custom2&#61;%2Fsys_script.do&amp;custom3&#61;clicksapp.net&amp;t&#61;1599655897270" /><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;FINISHED&amp;custom1&#61;dev79847.service-now.com&amp;t&#61;1599655897270" /></p>
+<p><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;LOADED&amp;custom1&#61;dev79847.service-now.com&amp;custom2&#61;%2Fsys_script.do&amp;custom3&#61;clicksapp.net&amp;t&#61;1599656899963" /><img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&#61;&amp;wid&#61;51824&amp;sid&#61;&amp;tid&#61;8555&amp;rid&#61;FINISHED&amp;custom1&#61;dev79847.service-now.com&amp;t&#61;1599656899964" /></p>]]></message>
+        <name>Antrag nicht mehr verändern</name>
+        <order>50</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+/*
+	g_form.setReadonly('erklaerung_zu_kosten',false);
+	g_form.setReadonly('prioritaet',true);*/
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-09 12:51:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>700180dfdb43101049d27b82399619ca</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Antrag nicht mehr verändern</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_700180dfdb43101049d27b82399619ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 16:25:16</sys_updated_on>
+        <template>auftragsnummer.status=5^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=700180dfdb43101049d27b82399619ca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_script_700180dfdb43101049d27b82399619ca</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_526765_reisemngr_reisekostenabrechnung&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_526765_reisemngr_reisekostenabrechnung"&gt;statusCHANGESTO4^EQ&lt;item display_value="Abgeschlossen" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;es ist geändertsich 1&lt;/p&gt;
+&lt;p&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;LOADED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;custom2&amp;#61;%2Fsys_script.do&amp;amp;custom3&amp;#61;clicksapp.net&amp;amp;t&amp;#61;1599655369964" /&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;FINISHED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;t&amp;#61;1599655369964" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;LOADED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;custom2&amp;#61;%2Fsys_script.do&amp;amp;custom3&amp;#61;clicksapp.net&amp;amp;t&amp;#61;1599655897270" /&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;FINISHED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;t&amp;#61;1599655897270" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;LOADED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;custom2&amp;#61;%2Fsys_script.do&amp;amp;custom3&amp;#61;clicksapp.net&amp;amp;t&amp;#61;1599656899963" /&gt;&lt;img style="width: 0px; height: 0px; display: none !important; visibility: hidden;" src="https://clicksapp.net/metric/?mid&amp;#61;&amp;amp;wid&amp;#61;51824&amp;amp;sid&amp;#61;&amp;amp;tid&amp;#61;8555&amp;amp;rid&amp;#61;FINISHED&amp;amp;custom1&amp;#61;dev79847.service-now.com&amp;amp;t&amp;#61;1599656899964" /&gt;&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;Antrag nicht mehr verändern&lt;/name&gt;&lt;order&gt;50&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+/*
+	g_form.setReadonly('erklaerung_zu_kosten',false);
+	g_form.setReadonly('prioritaet',true);*/
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-09 12:51:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;700180dfdb43101049d27b82399619ca&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Antrag nicht mehr verändern&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_700180dfdb43101049d27b82399619ca&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-15 16:25:16&lt;/sys_updated_on&gt;&lt;template&gt;auftragsnummer.status=5^EQ&lt;/template&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=700180dfdb43101049d27b82399619ca"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1849988099</payload_hash>
+        <record_name>Antrag nicht mehr verändern</record_name>
+        <reverted_from/>
+        <source>fa5f4e742f5f90106fb0de1a2799b613</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 16:25:16</sys_created_on>
+        <sys_id>8c8d27892fdbd0106fb0de1a2799b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749295ab5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 16:25:16</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>c48d278940dbd0104c8231b4288210c5</update_guid>
+        <update_guid_history>c48d278940dbd0104c8231b4288210c5:1849988099,087bde81461bd0109faab6a6d70ccfa5:720414358,3e299241e21bd010efd9e2793bb54285:-729733406,c835ce81a0d7d010fc484a9173a989c3:-1230086361,16030a4170d7d010eae531849972e224:183024341,e16f8e78735f901001f6acc0790efe70:0,f24f8678be5f9010139a93518feda5cf:-2011420243,3f1256a0a6179010b90b45905a4978c4:0,9b0212a012179010cbad574f899c3022:-2011420243,04e48b1ca4db501051e13dad382bee84:-1151262735</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 18:45:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>19766fe9de4f4b7583c15c170aad62f9</sys_id>
+        <sys_metadata>700180dfdb43101049d27b82399619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Antrag nicht mehr verändern</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_700180dfdb43101049d27b82399619ca</sys_update_name>
+        <sys_update_version display_value="sys_script_700180dfdb43101049d27b82399619ca">8c8d27892fdbd0106fb0de1a2799b6c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 18:45:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

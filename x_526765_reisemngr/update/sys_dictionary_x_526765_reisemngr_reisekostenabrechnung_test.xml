@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="reassignment_count" table="x_526765_reisemngr_reiseantrag">
-        <active>false</active>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="test" table="x_526765_reisemngr_reisekostenabrechnung">
+        <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Reassignment count</column_label>
+        <column_label>Fahrtkosten Auto (€)</column_label>
         <comments/>
         <create_roles/>
         <default_value>0</default_value>
@@ -27,18 +27,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>reassignment_count</element>
+        <element>test</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Integer">integer</internal_type>
+        <internal_type display_value="Currency">currency</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_526765_reisemngr_reiseantrag</name>
+        <max_length>20</max_length>
+        <name>x_526765_reisemngr_reisekostenabrechnung</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-05 10:17:52</sys_created_on>
-        <sys_id>4b5f8a782f5f90106fb0de1a2799b6dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Reassignment count</sys_name>
+        <sys_created_on>2020-09-15 17:53:46</sys_created_on>
+        <sys_id>10b1c4192f1fd0106fb0de1a2799b6b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fahrtkosten Auto (€)</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_reassignment_count</sys_update_name>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_test</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-14 14:55:33</sys_updated_on>
+        <sys_updated_on>2020-09-15 18:30:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -18,7 +18,7 @@
         <name>sysapproval_approver</name>
         <order>300</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>&amp;sysparm_view={reiseanträge_approval}#</query>
         <report/>
         <roles>x_526765_reisemngr.Vorgesetzter,x_526765_reisemngr.Buchhalter</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6b358a2d2f8790106fb0de1a2799b6ef</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Reisenkostenabrechnungen verwalten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -35,11 +35,11 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_app_module_6b358a2d2f8790106fb0de1a2799b6ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-15 14:05:05</sys_updated_on>
+        <sys_updated_on>2020-09-15 20:00:03</sys_updated_on>
         <timeline_page/>
         <title>Reisenkostenabrechnungen verwalten</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>reiseanträge_approval</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

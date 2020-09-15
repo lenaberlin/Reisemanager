@@ -6,10 +6,10 @@
         <element label="Beleg für Unterkunftskosten" max_length="40" name="beleg_f_r_unterkunftskosten" type="file_attachment"/>
         <element label="BIC" mandatory="true" max_length="11" name="bic" type="string"/>
         <element default="javascript: &#13;&#10;var grUs = new GlideRecord('sys_user');&#13;&#10;grUs.get('user_name','G5.Buchhalter');&#13;&#10;grUs.getValue('sys_id');" label="Buchhalter" max_length="32" name="buchhalter" read_only="true" reference="sys_user" reference_qual="roles=x_526765_reisemngr.Buchhalter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Buchhalter^EQ" type="reference"/>
-        <element default="0" label="Öffentliche Verkehrsmittel" mandatory="true" max_length="20" name="fahrtkosten" type="currency"/>
-        <element label="Fahrtkosten Auto (€)" max_length="40" name="fahrtkosten_auto" read_only="true" type="float"/>
-        <element default="0" label="Gebühren" mandatory="true" max_length="20" name="gebuehren" type="currency"/>
+        <element default="0" label="Öffentliche Verkehrsmittel" max_length="20" name="fahrtkosten" type="currency"/>
+        <element default="0" label="Gebühren" max_length="20" name="gebuehren" type="currency"/>
         <element default="0" label="Gefahrene Kilometer" max_length="40" name="gefahrene_kilometer" type="float"/>
+        <element label="Gesamtkosten" max_length="20" name="gesamtkosten" read_only="true" type="currency"/>
         <element label="IBAN" mandatory="true" max_length="16" name="iban" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Abrechnungsnummer" max_length="40" name="reiseantragsnummer" read_only="true" type="string"/>
@@ -22,7 +22,8 @@
                 <element inactive_on_update="false" label="Genehmigt" value="3"/>
             </choice>
         </element>
-        <element default="0" label="Unterkunftskosten" mandatory="true" max_length="20" name="unterkunftskosten" type="currency"/>
+        <element default="0" label="Fahrtkosten Auto (€)" max_length="20" name="test" read_only="true" type="currency"/>
+        <element default="0" label="Unterkunftskosten" max_length="20" name="unterkunftskosten" type="currency"/>
         <element default="javascript: var userDepartmentHead;&#13;&#10;&#13;&#10;var user = new GlideRecord('sys_user');&#13;&#10;&#13;&#10;if (user.get(gs.getUserID()))&#13;&#10;&#13;&#10;{userDepartmentHead = user.department.dept_head};&#13;&#10;&#13;&#10;userDepartmentHead;" label="Vorgesetzter" max_length="32" name="vorgesetzter" read_only="true" reference="sys_user" reference_qual="roles=x_526765_reisemngr.Vorgesetzter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Vorgesetzter^EQ" type="reference"/>
         <index name="index">
             <element name="vorgesetzter"/>

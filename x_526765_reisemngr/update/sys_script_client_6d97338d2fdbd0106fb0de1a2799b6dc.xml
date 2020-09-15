@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>gebuehren</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Gebuehren zu Gesamtkosten</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+
+    var gebueren = g_form.getValue("gebuehren");
+    var gebuerenCurrency = String(gebueren.split(';')[0]);
+    var gebuerenValue = parseFloat(gebueren.split(';')[1]);
+
+
+    var ga = new GlideAjax('ExchangeRateScript');
+    ga.addParam('sysparm_name', 'getRate');
+    ga.addParam('sysparm_currency', gebuerenCurrency);
+    ga.addParam('sysparm_value', gebuerenValue);
+    ga.getXML(RateParse);
+
+}
+
+function RateParse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //alert(answer);
+    var currency_code = 'EUR';
+    var fahrW = g_form.getValue("fahrtkosten");
+	var fahr = fahrW.split(';')[1];
+    var untW = g_form.getValue("unterkunftskosten");
+	var unt = untW.split(';')[1];
+	//var km = g_form.getValue("fahrtkosten_auto");
+	var kmW = g_form.getValue("test");
+	var km = kmW.split(';')[1];
+    var gesamt = parseFloat(answer) + parseFloat(fahr) + parseFloat(unt) + parseFloat(km);
+    g_form.setValue("gesamtkosten", currency_code + ";" + Math.round(gesamt * 100) / 100.0);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 17:11:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d97338d2fdbd0106fb0de1a2799b6dc</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Gebuehren zu Gesamtkosten</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 18:38:28</sys_updated_on>
+        <table>x_526765_reisemngr_reisekostenabrechnung</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
