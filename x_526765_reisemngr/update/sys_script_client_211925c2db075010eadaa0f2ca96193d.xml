@@ -10,19 +10,32 @@
         <messages/>
         <name>Gebüren_zu_Gesamtkosten</name>
         <order/>
-        <script><![CDATA[function onChange() {
-   //Type appropriate comment here, and begin script below
-	var geb = g_form.getDecimalValue("geschaetze_geb_hren");
-	var fahr = g_form.getDecimalValue("geschaetzte_fahrtkosten");
-	var unt = g_form.getDecimalValue("geschaetzte_unterkunftskosten");
-	var gesamt = parseFloat(geb) + parseFloat(fahr) + parseFloat(unt);
-	var v = "";
-	var tmp = g_form.getValue("geschaetze_geb_hren");
-	for(var i = 0; tmp[i] != ";"; i++){
-		v += tmp[i];
-	}
-	//alert(v + ";" + gesamt);
-	g_form.setValue("gesamtkosten", v + ";" + gesamt);
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+
+    var gebueren = g_form.getValue("geschaetze_geb_hren");
+    var gebuerenCurrency = String(gebueren.split(';')[0]);
+    var gebuerenValue = parseFloat(gebueren.split(';')[1]);
+
+
+    var ga = new GlideAjax('ExchangeRateScript');
+    ga.addParam('sysparm_name', 'getRate');
+    ga.addParam('sysparm_currency', gebuerenCurrency);
+    ga.addParam('sysparm_value', gebuerenValue);
+    ga.getXML(RateParse);
+
+}
+
+function RateParse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //alert(answer);
+    var currency_code = 'EUR';
+    var fahr = g_form.getDecimalValue("geschaetzte_fahrtkosten");
+    var unt = g_form.getDecimalValue("geschaetzte_unterkunftskosten");
+    var gesamt = parseFloat(answer) + parseFloat(fahr) + parseFloat(unt);
+    g_form.setValue("gesamtkosten", currency_code + ";" + gesamt);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -30,7 +43,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>211925c2db075010eadaa0f2ca96193d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Gebüren_zu_Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -38,7 +51,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_211925c2db075010eadaa0f2ca96193d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-05 23:06:58</sys_updated_on>
+        <sys_updated_on>2020-09-15 14:36:17</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

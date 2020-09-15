@@ -10,19 +10,31 @@
         <messages/>
         <name>Fahrt_zu_Gesamtkosten</name>
         <order/>
-        <script><![CDATA[function onChange() {
-   //Type appropriate comment here, and begin script below
-	var geb = g_form.getDecimalValue("geschaetze_geb_hren");
-	var fahr = g_form.getDecimalValue("geschaetzte_fahrtkosten");
-	var unt = g_form.getDecimalValue("geschaetzte_unterkunftskosten");
-	var gesamt = parseFloat(geb) + parseFloat(fahr) + parseFloat(unt);
-	var v = "";
-	var tmp = g_form.getValue("geschaetze_geb_hren");
-	for(var i = 0; tmp[i] != ";"; i++){
-		v += tmp[i];
-	}
-	//alert(v + ";" + gesamt);
-	g_form.setValue("gesamtkosten", v + ";" + gesamt);
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) {
+        return;
+    }
+
+    var fahrtkosten = g_form.getValue("geschaetzte_fahrtkosten");
+    var fahrtkostenCurrency = fahrtkosten.split(';')[0];
+    var fahrtkostenValue = parseFloat(fahrtkosten.split(';')[1]);
+
+    var gaa = new GlideAjax('ExchangeRateScript');
+    gaa.addParam('sysparm_name', 'getRate');
+    gaa.addParam('sysparm_currency', fahrtkostenCurrency);
+    gaa.addParam('sysparm_value', fahrtkostenValue);
+    gaa.getXML(RateParse);
+}
+
+function RateParse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //alert(answer);
+    var currency_code = 'EUR';
+    var geb = g_form.getDecimalValue("geschaetze_geb_hren");
+    var unt = g_form.getDecimalValue("geschaetzte_unterkunftskosten");
+    var gesamt = parseFloat(answer) + parseFloat(unt) + parseFloat(geb);
+    g_form.setValue("gesamtkosten", currency_code + ";" + gesamt);
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -30,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2d48edc2db075010eadaa0f2ca961985</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Fahrt_zu_Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -38,7 +50,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_2d48edc2db075010eadaa0f2ca961985</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-05 23:06:48</sys_updated_on>
+        <sys_updated_on>2020-09-15 14:35:33</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
