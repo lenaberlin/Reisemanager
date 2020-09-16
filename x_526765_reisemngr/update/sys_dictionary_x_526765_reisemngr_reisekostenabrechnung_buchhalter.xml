@@ -58,7 +58,7 @@ grUs.getValue('sys_id');</default_value>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-14 13:16:16</sys_created_on>
-        <sys_id>0b5fca782f5f90106fb0de1a2799b602</sys_id>
+        <sys_id>07e090addb13101023d3dde748961907</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Buchhalter</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -66,7 +66,7 @@ grUs.getValue('sys_id');</default_value>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_buchhalter</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-14 14:55:35</sys_updated_on>
+        <sys_updated_on>2020-09-16 13:38:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
