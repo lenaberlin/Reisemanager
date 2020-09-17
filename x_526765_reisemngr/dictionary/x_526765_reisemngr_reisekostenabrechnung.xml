@@ -11,6 +11,10 @@
         <element default="0" label="Gefahrene Kilometer" max_length="40" name="gefahrene_kilometer" type="float"/>
         <element label="Gesamtkosten" max_length="20" name="gesamtkosten" read_only="true" type="currency"/>
         <element label="IBAN" mandatory="true" max_length="16" name="iban" type="string"/>
+        <element label="Kalkulierte Fahrkosten" max_length="40" name="kalkulierte_fahrkosten" type="float"/>
+        <element label="Kalkulierte Gebühren" max_length="40" name="kalkulierte_geb_hren" type="float"/>
+        <element label="Kalkulierte PKW Kosten" max_length="40" name="kalkulierte_pkw_kosten" type="float"/>
+        <element label="Kalkulierte Unterkunftskosten" max_length="40" name="kalkulierte_unterkunftskosten" type="float"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Abrechnungsnummer" max_length="40" name="reiseantragsnummer" read_only="true" type="string"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">

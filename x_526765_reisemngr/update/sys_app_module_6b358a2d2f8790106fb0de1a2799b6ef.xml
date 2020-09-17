@@ -3,6 +3,7 @@
         <active>true</active>
         <application display_value="Reisemanager">6793862d2f8790106fb0de1a2799b6bd</application>
         <assessment/>
+        <content_page/>
         <device_type/>
         <filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=x_526765_reisemngr_reisekostenabrechnung^EQ<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_526765_reisemngr_reisekostenabrechnung"/>

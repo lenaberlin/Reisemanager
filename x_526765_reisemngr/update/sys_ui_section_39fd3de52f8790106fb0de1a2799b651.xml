@@ -168,6 +168,48 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_geb_hren</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 07:50:48</sys_created_on>
+            <sys_id>efea48b9db131010eadaa0f2ca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reiseantrag" display_value="Reiseantrag" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">39fd3de52f8790106fb0de1a2799b651</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 07:50:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_unterkunftskosten</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 07:51:27</sys_created_on>
+            <sys_id>c11b44b9db131010eadaa0f2ca961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reiseantrag" display_value="Reiseantrag" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">39fd3de52f8790106fb0de1a2799b651</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 07:51:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_fahrkosten</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 07:53:03</sys_created_on>
+            <sys_id>2c7b00f9db131010eadaa0f2ca96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reiseantrag" display_value="Reiseantrag" name="x_526765_reisemngr_reiseantrag" sys_domain="global" view="Default view">39fd3de52f8790106fb0de1a2799b651</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 07:53:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Reiseantrag</caption>
             <header>false</header>

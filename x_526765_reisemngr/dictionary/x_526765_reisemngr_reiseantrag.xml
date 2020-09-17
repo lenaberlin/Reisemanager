@@ -7,6 +7,9 @@
         <element label="Geschätzte Gebühren" max_length="20" name="geschaetze_geb_hren" type="currency"/>
         <element label="Geschätzte Fahrtkosten" max_length="20" name="geschaetzte_fahrtkosten" type="currency"/>
         <element label="Geschätzte Unterkunftskosten" max_length="20" name="geschaetzte_unterkunftskosten" type="currency"/>
+        <element label="Kalkulierte  Fahrkosten" max_length="40" name="kalkulierte_fahrkosten" type="float"/>
+        <element label="Kalkulierte Gebühren" max_length="40" name="kalkulierte_geb_hren" type="float"/>
+        <element label="Kalkulierte Unterkunftskosten" max_length="40" name="kalkulierte_unterkunftskosten" type="float"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Reisezweck" mandatory="true" max_length="160" name="reisezweck" type="string"/>
         <element label="Startdatum" mandatory="true" max_length="40" name="startdatum" type="glide_date"/>
