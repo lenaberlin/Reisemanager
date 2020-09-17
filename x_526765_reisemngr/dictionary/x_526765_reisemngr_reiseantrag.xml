@@ -10,13 +10,16 @@
         <element label="Kalkulierte  Fahrkosten" max_length="40" name="kalkulierte_fahrkosten" type="float"/>
         <element label="Kalkulierte Gebühren" max_length="40" name="kalkulierte_geb_hren" type="float"/>
         <element label="Kalkulierte Unterkunftskosten" max_length="40" name="kalkulierte_unterkunftskosten" type="float"/>
+        <element label="Kommentar zur Stornierung" max_length="255" name="kommentar_zur_stornierung" type="string_full_utf8"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Reisezweck" mandatory="true" max_length="160" name="reisezweck" type="string"/>
         <element label="Startdatum" mandatory="true" max_length="40" name="startdatum" type="glide_date"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
+                <element inactive_on_update="false" label="Abgebrochen" value="7"/>
                 <element inactive_on_update="false" label="Abgelehnt" value="-1.0"/>
                 <element inactive_on_update="false" label="Abgerechnet" value="5"/>
+                <element inactive_on_update="false" label="Ausgereist" value="6"/>
                 <element inactive_on_update="false" label="Beantragt" value="2"/>
                 <element inactive_on_update="false" label="Entwurf" value="1"/>
                 <element inactive_on_update="false" label="Genehmigt" value="3"/>
