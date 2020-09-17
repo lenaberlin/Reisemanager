@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Reisekostenabrechnung" max_length="40" name="x_526765_reisemngr_reisekostenabrechnung" type="collection">
+    <element label="Reisekostenabrechnung" max_length="40" name="x_526765_reisemngr_reisekostenabrechnung" sizeclass="5" type="collection">
         <element label="Auftragsnummer" mandatory="true" max_length="32" name="auftragsnummer" reference="x_526765_reisemngr_reiseantrag" reference_qual="nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status=4^EQ" reference_qual_condition="nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status=4^EQ" type="reference"/>
-        <element label="Beleg für Fahrtkosten" max_length="40" name="beleg_fuer_fahrtkosten" type="file_attachment"/>
-        <element label="Beleg für Gebühren" max_length="40" name="beleg_fuer_gebuehren" type="file_attachment"/>
-        <element label="Beleg für Unterkunftskosten" max_length="40" name="beleg_f_r_unterkunftskosten" type="file_attachment"/>
+        <element label="Beleg für Fahrtkosten" max_length="40" name="beleg_fuer_fahrtkosten" type="user_image"/>
+        <element label="Beleg für Gebühren" max_length="40" name="beleg_fuer_gebuehren" type="user_image"/>
+        <element label="Beleg für Unterkunftskosten" max_length="40" name="beleg_f_r_unterkunftskosten" type="user_image"/>
         <element label="BIC" mandatory="true" max_length="11" name="bic" type="string"/>
         <element default="javascript: &#13;&#10;var grUs = new GlideRecord('sys_user');&#13;&#10;grUs.get('user_name','G5.Buchhalter');&#13;&#10;grUs.getValue('sys_id');" label="Buchhalter" max_length="32" name="buchhalter" read_only="true" reference="sys_user" reference_qual="roles=x_526765_reisemngr.Buchhalter^EQ" reference_qual_condition="roles=x_526765_reisemngr.Buchhalter^EQ" type="reference"/>
         <element default="0" label="Öffentliche Verkehrsmittel" max_length="20" name="fahrtkosten" type="currency"/>
