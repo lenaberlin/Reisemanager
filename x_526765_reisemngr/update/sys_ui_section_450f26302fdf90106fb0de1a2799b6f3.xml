@@ -4,41 +4,55 @@
             <element>gebuehren</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:16:04</sys_created_on>
-            <sys_id>2a8fea302fdf90106fb0de1a2799b6a0</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>43d8b2f9dbd71010eadaa0f2ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="III. Reise-Nebenkosten" display_value="III. Reise-Nebenkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">450f26302fdf90106fb0de1a2799b6f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:16:04</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_geb_hren</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>c3d8b2f9dbd71010eadaa0f2ca9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="III. Reise-Nebenkosten" display_value="III. Reise-Nebenkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">450f26302fdf90106fb0de1a2799b6f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:16:04</sys_created_on>
-            <sys_id>aa8fea302fdf90106fb0de1a2799b6a0</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>47d8b2f9dbd71010eadaa0f2ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="III. Reise-Nebenkosten" display_value="III. Reise-Nebenkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">450f26302fdf90106fb0de1a2799b6f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:16:04</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>beleg_fuer_gebuehren</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:16:04</sys_created_on>
-            <sys_id>2e8fea302fdf90106fb0de1a2799b6a0</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>c7d8b2f9dbd71010eadaa0f2ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="III. Reise-Nebenkosten" display_value="III. Reise-Nebenkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">450f26302fdf90106fb0de1a2799b6f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:16:04</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

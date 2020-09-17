@@ -4,41 +4,69 @@
             <element>unterkunftskosten</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:13:48</sys_created_on>
-            <sys_id>150f66302fdf90106fb0de1a2799b627</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>87d8b2f9dbd71010eadaa0f2ca9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="II. Unterkunftskosten" display_value="II. Unterkunftskosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">490f26302fdf90106fb0de1a2799b6f2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:13:48</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_unterkunftskosten</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>0bd8b2f9dbd71010eadaa0f2ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="II. Unterkunftskosten" display_value="II. Unterkunftskosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">490f26302fdf90106fb0de1a2799b6f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:13:48</sys_created_on>
-            <sys_id>950f66302fdf90106fb0de1a2799b627</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>8bd8b2f9dbd71010eadaa0f2ca9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="II. Unterkunftskosten" display_value="II. Unterkunftskosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">490f26302fdf90106fb0de1a2799b6f2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:13:48</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>beleg_f_r_unterkunftskosten</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-14 17:13:48</sys_created_on>
-            <sys_id>190f66302fdf90106fb0de1a2799b627</sys_id>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>0fd8b2f9dbd71010eadaa0f2ca9619b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="II. Unterkunftskosten" display_value="II. Unterkunftskosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">490f26302fdf90106fb0de1a2799b6f2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-14 17:13:48</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_pkw_kosten</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 20:30:43</sys_created_on>
+            <sys_id>8fd8b2f9dbd71010eadaa0f2ca9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="II. Unterkunftskosten" display_value="II. Unterkunftskosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">490f26302fdf90106fb0de1a2799b6f2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 20:30:43</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

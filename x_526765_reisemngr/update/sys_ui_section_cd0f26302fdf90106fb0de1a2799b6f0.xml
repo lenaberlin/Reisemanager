@@ -4,13 +4,13 @@
             <element>gefahrene_kilometer</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
-            <sys_id>011d80112f5fd0106fb0de1a2799b650</sys_id>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>83d8b2f9dbd71010eadaa0f2ca9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,69 @@
             <element>fahrtkosten</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
-            <sys_id>811d80112f5fd0106fb0de1a2799b650</sys_id>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>07d8b2f9dbd71010eadaa0f2ca9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kalkulierte_fahrkosten</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>87d8b2f9dbd71010eadaa0f2ca9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
-            <sys_id>051d80112f5fd0106fb0de1a2799b650</sys_id>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>0bd8b2f9dbd71010eadaa0f2ca9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>test</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
-            <sys_id>851d80112f5fd0106fb0de1a2799b650</sys_id>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>8bd8b2f9dbd71010eadaa0f2ca9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>beleg_fuer_fahrtkosten</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:13</sys_created_on>
-            <sys_id>091d80112f5fd0106fb0de1a2799b650</sys_id>
+            <sys_created_on>2020-09-17 20:30:42</sys_created_on>
+            <sys_id>0fd8b2f9dbd71010eadaa0f2ca9619af</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="I. Fahrtkosten" display_value="I. Fahrtkosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">cd0f26302fdf90106fb0de1a2799b6f0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:13</sys_updated_on>
+            <sys_updated_on>2020-09-17 20:30:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
