@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 11:25:26</sys_created_on>
-        <sys_id>20c008b1db131010eadaa0f2ca961973</sys_id>
+        <sys_id>a50ffdc2db13101023d3dde748961923</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Anmerkungen</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_erklaerung_zu_kosten</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-17 07:06:25</sys_updated_on>
+        <sys_updated_on>2020-09-18 10:56:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

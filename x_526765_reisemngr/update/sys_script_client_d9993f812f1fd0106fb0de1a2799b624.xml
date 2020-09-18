@@ -15,15 +15,20 @@
       return;
    }
 
-   var currency_code = 'EUR';
-    var fahr = g_form.getDecimalValue("kalkulierte_fahrkosten");
+	var fahr = g_form.getDecimalValue("kalkulierte_fahrkosten");
     var unt = g_form.getDecimalValue("kalkulierte_unterkunftskosten");
 	var geb = g_form.getDecimalValue("kalkulierte_geb_hren");
 	var km = g_form.getDecimalValue("kalkulierte_pkw_kosten");
 	//var km = kmWert.split(';')[1];
 	//g_form.addErrorMessage(parseFloat(km));
     var gesamt = fahr + unt + geb + km;
-    g_form.setValue("gesamtkosten", currency_code + ";" + Math.round(gesamt * 100) / 100.0);
+	var gesamtReise = fahr + km;
+	gesamtReise = gesamtReise.toFixed(2);
+	gesamtReise = gesamtReise.replace(".", ",");
+	gesamt = gesamt.toFixed(2);
+	gesamt = gesamt.replace(".", ",");
+    g_form.setValue("gesamtkosten1", gesamt);
+	g_form.setValue("gesamt_reisekosten", gesamtReise);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -31,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9993f812f1fd0106fb0de1a2799b624</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>PKW Fahrtkosten zu Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -39,7 +44,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_d9993f812f1fd0106fb0de1a2799b624</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-17 08:47:17</sys_updated_on>
+        <sys_updated_on>2020-09-18 19:05:01</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

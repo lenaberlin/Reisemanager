@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="IV. Gesamte Reisekosten" section_id="b01d40112f5fd0106fb0de1a2799b6ef" sys_domain="global" table="x_526765_reisemngr_reisekostenabrechnung" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>gesamtkosten</element>
+            <element>gesamt_reisekosten</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:14</sys_created_on>
-            <sys_id>c51d80112f5fd0106fb0de1a2799b658</sys_id>
+            <sys_created_on>2020-09-18 18:19:56</sys_created_on>
+            <sys_id>d5846f46db17101023d3dde7489619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IV. Gesamte Reisekosten" display_value="IV. Gesamte Reisekosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">b01d40112f5fd0106fb0de1a2799b6ef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:14</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:19:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-15 18:43:14</sys_created_on>
-            <sys_id>491d80112f5fd0106fb0de1a2799b658</sys_id>
+            <sys_created_on>2020-09-18 18:19:56</sys_created_on>
+            <sys_id>59846f46db17101023d3dde7489619c7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="IV. Gesamte Reisekosten" display_value="IV. Gesamte Reisekosten" name="x_526765_reisemngr_reisekostenabrechnung" sys_domain="global" view="Default view">b01d40112f5fd0106fb0de1a2799b6ef</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-15 18:43:14</sys_updated_on>
+            <sys_updated_on>2020-09-18 18:19:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="gesamtkosten" table="x_526765_reisemngr_reiseantrag">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Geschätzte Gesamtkosten</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gesamtkosten</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Currency">currency</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <name>x_526765_reisemngr_reiseantrag</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 11:39:27</sys_created_on>
+        <sys_id>e50ffdc2db13101023d3dde748961924</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Geschätzte Gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_gesamtkosten</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 14:28:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>d85bfff4db2ff3c007072f17d49619d0</instance_id>
+        <instance_name>dev92406</instance_name>
+        <name>sys_dictionary_x_526765_reisemngr_reiseantrag_gesamtkosten</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="gesamtkosten" table="x_526765_reisemngr_reiseantrag"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Geschätzte Gesamtkosten&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;gesamtkosten&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Currency"&gt;currency&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;name&gt;x_526765_reisemngr_reiseantrag&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-04 11:39:27&lt;/sys_created_on&gt;&lt;sys_id&gt;e50ffdc2db13101023d3dde748961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Geschätzte Gesamtkosten&lt;/sys_name&gt;&lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_526765_reisemngr_reiseantrag_gesamtkosten&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-18 14:28:40&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1036942242</payload_hash>
+        <record_name>Reiseantrag.Geschätzte Gesamtkosten</record_name>
+        <reverted_from/>
+        <source>fb1f7582db13101023d3dde7489619bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 14:28:40</sys_created_on>
+        <sys_id>ad9f2606db93101023d3dde7489619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a19dfe5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 14:28:40</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>e59f26061893101001bf1d9a61fda5fd</update_guid>
+        <update_guid_history>e59f26061893101001bf1d9a61fda5fd:-1036942242,e25fa206dd9310105936228791982a35:-1781255363,501f7106f213101038e75dbb7cf294b5:0,06fe3dc25013101097783300a9809300:-294554046,f7e0d0add3131010eb7b104cc0a9c644:0,7ad05c6d9c1310109b5c725a3c7ea36d:-294554046,10c984296b1310107b9c50fe75ea2b27:0,6da9cce5e613101047d441ab65588586:-1690085248,f6546dd31e471010e5b799a75d9059bc:0,3534e5d378471010ddf3d2899afd0c12:-1690085248,cb22dd17ef07101060c8b7e2dd85f4d6:0,d212d917d40710108f8583a787263729:-1690085248,bcf63c133cc3101095c2a76102c0b0b6:0,4ae6b81377c3101045e4ebf801d5e902:-1690085248,61603f8321031010752512aed093ecf3:0,6d503b833f0310104b6044971689a8af:-1690085248,a6a7773a27031010ab1dceb6b7ec93a1:0,db97b33af40310105bfe044bb6745263:-1690085248,f4e5883144c71010523a76efa3be8ead:1927730868,bdb0007dc78710105a177a4844ea1f0b:0,17a04c3d118710103168b64555b8da19:-1690085248,2b1b8ba91d071010802c0d66ac0835b3:0,360bc7a9c407101016f31b84373e4850:-1690085248,1664cf653d0710102a3f68cf637c3962:1927730868,4714cb652b071010eed03ab7686a9a74:-1448838703,e5ada6e579c310105bfae011fa2ca563:0,2dada6e53ec310106921880b557bae5e:1770944662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 15:57:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>368ba12466504130aa6d8b761380f040</sys_id>
+        <sys_metadata>e50ffdc2db13101023d3dde748961924</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Geschätzte Gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_gesamtkosten</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_526765_reisemngr_reiseantrag_gesamtkosten">ad9f2606db93101023d3dde7489619fd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 15:57:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
