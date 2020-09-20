@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="unterkunftskosten" table="x_526765_reisemngr_reisekostenabrechnung">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="fahrkosten_pkw" table="x_526765_reisemngr_reisekostenabrechnung">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Unterkunftskosten</column_label>
+        <column_label>Fahrkosten PKW (€)</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0</default_value>
+        <default_value>0,00</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,18 +27,18 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>unterkunftskosten</element>
+        <element>fahrkosten_pkw</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Currency">currency</internal_type>
+        <internal_type display_value="">string_full_utf8</internal_type>
         <mandatory>false</mandatory>
-        <max_length>20</max_length>
+        <max_length>255</max_length>
         <name>x_526765_reisemngr_reisekostenabrechnung</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-05 11:34:11</sys_created_on>
-        <sys_id>a156efa22f1310106fb0de1a2799b614</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Unterkunftskosten</sys_name>
+        <sys_created_on>2020-09-20 17:56:15</sys_created_on>
+        <sys_id>062235b6db57101023d3dde7489619a1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fahrkosten PKW (€)</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
-        <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_unterkunftskosten</sys_update_name>
+        <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_fahrkosten_pkw</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-20 07:44:57</sys_updated_on>
+        <sys_updated_on>2020-09-20 19:08:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

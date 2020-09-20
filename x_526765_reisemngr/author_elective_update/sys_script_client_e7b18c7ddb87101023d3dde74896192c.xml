@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>gesch_unterkunftskosten</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Unterkunft zu geschätzen Gesamtkosten</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) { return; }
+	
+	if(newValue == ""){
+		g_form.setValue(0.00);
+		return;
+	}
+	
+	var unterkunftskosten = g_form.getValue("gesch_unterkunftskosten");
+	
+	
+	
+// 	var gaaa = new GlideAjax('ExchangeRateScript');
+// 	gaaa.addParam('sysparm_name', 'getRate');
+// // 	gaaa.addParam('sysparm_currency', unterkunftskostenCurrency);
+// // 	gaaa.addParam('sysparm_value', unterkunftskostenValue);
+// 	gaaa.getXML(RateParse);
+}
+
+// function RateParse(response) {
+//     var answer = response.responseXML.documentElement.getAttribute("answer");
+// 	alert("answer before parseFloat: " + answer);
+// 	answer = parseFloat(answer);
+// 	alert("answer after parseFloat: " + answer);
+// 	answer = answer.toFixed(2.0);
+// 	alert("answer after toFixed: " + answer);
+// 	answer = parseFloat(answer);
+// 	alert("after parseFloat: " + answer);
+
+	//var currency_code = 'EUR';
+// 	var unt =  answer;
+// 	g_form.setValue("kalkulierte_unterkunftskosten", unt);
+// 	var geb = g_form.getValue("geschaetze_geb_hren");
+// 	alert("Gebühren getValue() before parseFloat: " + geb);
+// 	var gebu = parseFloat((geb.split(';')[1]).replace(",", "."));
+// 	alert("Gebühren getValue(): " + gebu);
+// 	var ges = unt + gebu;
+// 	ges = Math.round(ges * 100) /100;
+// 	ges = ges.toFixed(2);
+// 	ges = parseFloat(ges);
+// 	alert("Adding geb + unt: " + ges);
+// 	if(!(fahr.includes("."))){
+// 		alert("Fahrtkosten in den IF");
+// 			fahr = parseFloat(fahr);
+// 			fahr *= 0.01;
+// 		}
+// 	else {
+// 		alert("Fahrtkosten in den else");
+// 		fahr = g_form.getDecimalValue("kalkulierte_fahrkosten");
+// 		alert("getDecimaleValue() von Fahrt: " + fahr);
+// 	}
+// 	var geb = g_form.getValue("kalkulierte_geb_hren");
+// 	alert("Gebühren getValue(): " + geb);
+// 	if(!(geb.includes("."))){
+// 		alert("Gebühren in den if");
+// 			geb = parseFloat(geb);
+// 			geb *= 0.01;
+// 	}
+// 	else {
+// 		alert("Gebühren in den else");
+// 		geb = g_form.getDecimalValue("kalkulierte_geb_hren");
+// 		alert("getDecimaleValue() von geb: " + geb);
+// 	}
+// 	var gesamt = unt + geb + fahr;
+// 	gesamt = gesamt.toFixed(2);
+// 	gesamt = gesamt.replace(".", ",");
+// 	alert("gebühren: " + geb + "\n" + "unterkunft: " + unt + "\n" + "fahrt: " + fahr + "\n" + "gesamt: " + gesamt);
+//     g_form.setValue("gesamtkosten1", gesamt);
+// }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 21:02:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7b18c7ddb87101023d3dde74896192c</sys_id>
+        <sys_mod_count>86</sys_mod_count>
+        <sys_name>Unterkunft zu geschätzen Gesamtkosten</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_e7b18c7ddb87101023d3dde74896192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 13:01:25</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>d85bfff4db2ff3c007072f17d49619d0</instance_id>
+        <instance_name>dev92406</instance_name>
+        <name>sys_script_client_e7b18c7ddb87101023d3dde74896192c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;gesch_unterkunftskosten&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Unterkunft zu geschätzen Gesamtkosten&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading) { return; }
+	
+	if(newValue == ""){
+		g_form.setValue(0.00);
+		return;
+	}
+	
+	var unterkunftskosten = g_form.getValue("gesch_unterkunftskosten");
+	
+	
+	
+// 	var gaaa = new GlideAjax('ExchangeRateScript');
+// 	gaaa.addParam('sysparm_name', 'getRate');
+// // 	gaaa.addParam('sysparm_currency', unterkunftskostenCurrency);
+// // 	gaaa.addParam('sysparm_value', unterkunftskostenValue);
+// 	gaaa.getXML(RateParse);
+}
+
+// function RateParse(response) {
+//     var answer = response.responseXML.documentElement.getAttribute("answer");
+// 	alert("answer before parseFloat: " + answer);
+// 	answer = parseFloat(answer);
+// 	alert("answer after parseFloat: " + answer);
+// 	answer = answer.toFixed(2.0);
+// 	alert("answer after toFixed: " + answer);
+// 	answer = parseFloat(answer);
+// 	alert("after parseFloat: " + answer);
+
+	//var currency_code = 'EUR';
+// 	var unt =  answer;
+// 	g_form.setValue("kalkulierte_unterkunftskosten", unt);
+// 	var geb = g_form.getValue("geschaetze_geb_hren");
+// 	alert("Gebühren getValue() before parseFloat: " + geb);
+// 	var gebu = parseFloat((geb.split(';')[1]).replace(",", "."));
+// 	alert("Gebühren getValue(): " + gebu);
+// 	var ges = unt + gebu;
+// 	ges = Math.round(ges * 100) /100;
+// 	ges = ges.toFixed(2);
+// 	ges = parseFloat(ges);
+// 	alert("Adding geb + unt: " + ges);
+// 	if(!(fahr.includes("."))){
+// 		alert("Fahrtkosten in den IF");
+// 			fahr = parseFloat(fahr);
+// 			fahr *= 0.01;
+// 		}
+// 	else {
+// 		alert("Fahrtkosten in den else");
+// 		fahr = g_form.getDecimalValue("kalkulierte_fahrkosten");
+// 		alert("getDecimaleValue() von Fahrt: " + fahr);
+// 	}
+// 	var geb = g_form.getValue("kalkulierte_geb_hren");
+// 	alert("Gebühren getValue(): " + geb);
+// 	if(!(geb.includes("."))){
+// 		alert("Gebühren in den if");
+// 			geb = parseFloat(geb);
+// 			geb *= 0.01;
+// 	}
+// 	else {
+// 		alert("Gebühren in den else");
+// 		geb = g_form.getDecimalValue("kalkulierte_geb_hren");
+// 		alert("getDecimaleValue() von geb: " + geb);
+// 	}
+// 	var gesamt = unt + geb + fahr;
+// 	gesamt = gesamt.toFixed(2);
+// 	gesamt = gesamt.replace(".", ",");
+// 	alert("gebühren: " + geb + "\n" + "unterkunft: " + unt + "\n" + "fahrt: " + fahr + "\n" + "gesamt: " + gesamt);
+//     g_form.setValue("gesamtkosten1", gesamt);
+// }]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-04 21:02:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e7b18c7ddb87101023d3dde74896192c&lt;/sys_id&gt;&lt;sys_mod_count&gt;86&lt;/sys_mod_count&gt;&lt;sys_name&gt;Unterkunft zu geschätzen Gesamtkosten&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e7b18c7ddb87101023d3dde74896192c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-20 13:01:25&lt;/sys_updated_on&gt;&lt;table&gt;x_526765_reisemngr_reiseantrag&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1863829892</payload_hash>
+        <record_name>Unterkunft zu geschätzen Gesamtkosten</record_name>
+        <reverted_from/>
+        <source>ca933f62db13101023d3dde74896192c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-20 13:01:25</sys_created_on>
+        <sys_id>f6ce203adb93101023d3dde74896192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174ab9ad5b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 13:01:25</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fece203a8a9310103b2e8a3e67fd362c</update_guid>
+        <update_guid_history>fece203a8a9310103b2e8a3e67fd362c:-1863829892,0ebd2cf66d9310100d9da69bf440b387:472759901,2cfca8f61c931010323cf076d187b6fb:-1320123265,48dc203a55931010bd0b9e5c7f011225:-1552611230,e2eb6cb6ed93101058cd793c633eedb7:-1523033731,e2b8ec368b931010856af570c0b83533:-506407840,e658a036f593101039bcfe7fd25ec1f7:-1238139857,b4c7a0362e931010e574a3a386a146f2:-2103464055,4f272036aa9310103e95140e838e915d:1449547277,95f6ecf2319310108fc12271725f8cd3:-286856823,2c0564b2b093101078fece296e56d314:-1319414443,5b9428b20b93101060c0d63ceb727e5a:-1933916713,aa44ec32329310106636dc161606c95f:-1918051568,b5d3ec72319310104f587f022caffc9e:619000741,06a32072bc931010a898ff5cb46b6fb8:-1956828463,bb032c32bb931010bdc8ffb341c1204c:-682331557,c4c22c32ec931010dfd00b84d42f397a:-1767599825,4c22e83249931010588830e3fa35a9e2:-2022784738,8ac1a4fe72531010fc2add15451c10e8:33398779,6a4fd03ed6531010615a06cd6a78ca21:-93952825,d3de183e4f5310102c7f9b464b33a4cf:-2022784738,c80b1cba9a531010be95a002d13acd1a:33398779,fbb6d4f61a531010107409ce3075b2be:-696900810,938594f62a531010abd0fb1a19cb8b7b:-736850358,abd398b66b531010693a2cbd7790a011:394351741,af9318b6045310101a068e8822ed049f:-572816698,c28314b63a131010a53e27f5088b43dc:1523442986,bc7398b60d5310102053700ac2e0206b:-1510589057,0a937fe26c131010011f7bd706894cc2:0,e37377e249131010161fe83a9d86ce7e:44877159,c950f74e2917101076f32b3a84593803:1294160859,e5d7cbc27ad3101083e57aa8cfffb016:-1928613154,a82547420ed310102fa353269880d0f3:1263010058,2484cf0211d31010a2fe7568c824937d:-1933184788,4332c7ceaa93101012f375e16a0cbeb9:638991338,5670038ec3931010f948ce38daf981c2:-148102930,6e00c34e229310106dfdf9f2497110e5:1808410702,c13fba8aaa931010de4c016741762fbe:-148102930,b20eea82ce93101060c8edba6661b227:1808410702,49fc6a8276931010d0d311223b88176b:-332709054,80baa2023993101023a7fc9a3dcf300d:-265771859,eef92a022893101016ac6d1ee4f23f91:1644378944,38d86ece36531010343f197d21b79acb:1629284963,bb97ae0efc531010e6ce2fedcb048175:-1504748040,8f372e8e4f53101018ff943f7fa4c0bd:-1160768086,df046acad7531010e1af67452e697d3a:1085126826,7a23260e23531010f489d1c2cc7ffdb7:-1051273057,5a82aecaab5310100ed2e36cc0d06b01:404786440,4e022aca2b53101060c44903c934949b:1782741686,5721ee8af2531010ce2aca60aa02940a:-1241590836,a3506a4a92531010ca1d8ddc6b0f99ec:499418371,4410e20a6c531010cab3d956ee78b5d4:-1061925341,5ffe1e0a1a5310107a86ded12b74ab17:1846166146,fe8ed24ac65310108e757e45dec1a728:902571191,9fcd120a37531010bf185ac69ae27485:-472845824,e21dd6c673531010fcd35bb2507c64f7:1685849217,abdc120a0753101082139901a607e24e:1199324773,779c1ac635531010eb67d5327088aa1b:-536276772,dbfb5e8609531010939926a1b5bf2ed4:971213604,e0ab5e861f5310101acb4fd7ae15f5cf:917179129,d71b5e86c9531010e53a2d96e0810681:584104524,e829d606395310101c8eafbacd4b31bd:1534375032,5548dac2e55310100d89bdf4b8ea0861:-1137266472,9f379282bc53101027e880765b834b21:939017995,55f6dac2d0531010f37120a26fb7a8bb:2017757677,7f269ac26e531010268d90e3ee8b7702:1969367811,d51516827a5310103feed5a0cc160210:-1444626632,39d39a021b531010cba83107cb73e31e:163682538,bdceca4e39131010704a435f481a030c:-49044501,95ad468e671310109643907e2ef5d3ff:-1517437386,70680e8a58131010c13c56a20a556203:1513690274,7d1ff106d81310102aa46988d978bc78:0,33ee79c2b1131010260d2c05bbf7a1c7:1266312836,c5f054ad0b131010f35be69b1c22deb5:0,eed05c6dad13101023152f6bee9c0342:1266312836,fdc9c4291b131010f58cc8bc0fa6cdc7:0,e0b9802992131010610b9a12fbba7b73:-1631183371,7754add3364710106f55bc18a003dacb:0,c344a9d3ea471010a6d6582699bcf087:-1631183371,fb2211579a07101043124e434a2c48e5:0,10225d17dc071010d93f5ac911e8f418:-1631183371,29f67c1399c31010c97ab3ce271634bc:0,f0e63813bdc31010d9c44018778121b9:-1631183371,aa60bf83a403101011b4a5038d5c5a6b:0,69503b83030310103d8bc32e54c9616e:-1631183371,afa7b73a70031010edf3f768332090b0:0,4797b33a0e03101030626021dfaec327:799224067,6e65ccfd5f871010f68d6d514611e69c:-158619121,4a7340bd8a87101076f0878139b666ac:-534870892</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-20 13:01:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7ff72dc3f14c4b489d492292a3a1f019</sys_id>
+        <sys_metadata>e7b18c7ddb87101023d3dde74896192c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unterkunft zu geschätzen Gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reiseantrag">45e035ad2f4790106fb0de1a2799b679</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_client_e7b18c7ddb87101023d3dde74896192c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e7b18c7ddb87101023d3dde74896192c">f6ce203adb93101023d3dde74896192d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 13:01:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

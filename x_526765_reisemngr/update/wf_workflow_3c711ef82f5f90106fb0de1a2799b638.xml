@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-20 07:52:59</sys_created_on>
         <sys_id>3c38eb662f1310106fb0de1a2799b68b</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-20 07:56:16</sys_updated_on>
+        <sys_updated_on>2020-09-20 19:01:31</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Reisekostenabrechnung Workflow">3c711ef82f5f90106fb0de1a2799b638</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

@@ -4,7 +4,7 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Berechnet die gesamtkosten abhängig von der Währung</description>
-        <field>test</field>
+        <field>fahrkosten_pkw</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
@@ -15,12 +15,10 @@
       return;
    }
 
-	var fahr = g_form.getDecimalValue("kalkulierte_fahrkosten");
-    var unt = g_form.getDecimalValue("kalkulierte_unterkunftskosten");
-	var geb = g_form.getDecimalValue("kalkulierte_geb_hren");
-	var km = g_form.getDecimalValue("kalkulierte_pkw_kosten");
-	//var km = kmWert.split(';')[1];
-	//g_form.addErrorMessage(parseFloat(km));
+	var fahr = g_form.getDecimalValue("o_verkehrsmittel");
+    var unt = g_form.getDecimalValue("unterkunftskosten1");
+	var geb = g_form.getDecimalValue("gebuhren1");
+	var km = g_form.getDecimalValue("fahrkosten_pkw");
     var gesamt = fahr + unt + geb + km;
 	var gesamtReise = fahr + km;
 	gesamtReise = gesamtReise.toFixed(2);
@@ -36,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9993f812f1fd0106fb0de1a2799b624</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>PKW Fahrtkosten zu Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -44,7 +42,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_d9993f812f1fd0106fb0de1a2799b624</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-18 19:05:01</sys_updated_on>
+        <sys_updated_on>2020-09-20 18:34:18</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

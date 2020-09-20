@@ -4,57 +4,52 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>fahrtkosten</field>
+        <field>o_verkehrsmittel</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
         <name>Fahrt zu Gesamtkosten</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading) {
-        return;
-    }
-
-	if(newValue == ""){
-		g_form.setValue("fahrtkosten", "EUR;" + 0.00);
+    if (isLoading){ return; }
+    var unt = g_form.getDecimalValue("unterkunftskosten1");
+    var geb = g_form.getDecimalValue("gebuhren1");
+    var fahrt = g_form.getDecimalValue("fahrkosten_pkw");
+	var oeMittel = g_form.getDecimalValue("o_verkehrsmittel");
+    var gesamt = fahrt + geb + unt + oeMittel;
+	var gesamtReise = fahrt + oeMittel;
+	var gr = setZiffer(gesamtReise);
+	var ge = setZiffer(gesamt);
+    if(ge != ("0" || "0.0" || "0.00" || "0,0" || "0,00" || "")){
+		g_form.setValue("gesamtkosten1", ge);
 	}
+	else{ g_form.setValue("gesamtkosten1", "0,00"); }
+	if(gr != ("0" || "0.0" || "0.00" || "0,0" || "0,00" || "")){
+		g_form.setValue("gesamt_reisekosten", gr);
+	}
+	else{ g_form.setValue("gesamt_reisekosten", "0,00"); }
 	
-	var fahrtkosten = g_form.getValue("fahrtkosten");
-	var fahrtkostenCurrency = fahrtkosten.split(';')[0];
-	var fahrtkostenValue = parseFloat((fahrtkosten.split(';')[1]));
-	
-
-    var gaa = new GlideAjax('ExchangeRateScript');
-    gaa.addParam('sysparm_name', 'getRate');
-    gaa.addParam('sysparm_currency', fahrtkostenCurrency);
-    gaa.addParam('sysparm_value', fahrtkostenValue);
-    gaa.getXML(RateParse);
-}
-
-function RateParse(response) {
-    var answer = response.responseXML.documentElement.getAttribute("answer");
-	answer = parseFloat(answer);
-	answer = answer.toFixed(2.0);
-	answer = parseFloat(answer);
-	
-    //var currency_code = 'EUR';
-	var fahr = answer;
-	g_form.setValue("kalkulierte_fahrkosten", fahr);
-    var geb = g_form.getDecimalValue("kalkulierte_geb_hren");
-	//geb *= 0.01;
-    var unt = g_form.getDecimalValue("kalkulierte_unterkunftskosten");
-	//unt *= 0.01;
-	var km = g_form.getDecimalValue("kalkulierte_pkw_kosten");
-	var gesamt = unt + fahr + geb + km;
-	var gesamtReise = fahr + km;
-	gesamtReise = gesamtReise.toFixed(2);
-	gesamtReise = gesamtReise.replace(".", ",");
-	gesamt = gesamt.toFixed(2);
-	gesamt = gesamt.replace(".", ",");
-	//alert("gebühren: " + geb + "\n" + "unterkunft: " + unt + "\n" + "fahrt: " + fahr + "\n" + "KM: " + km + "\n" + "gesamt: " + gesamt);
-	g_form.setValue("gesamtkosten1", gesamt);
-	g_form.setValue("gesamt_reisekosten", gesamtReise);
-
+    function setZiffer(feld) {
+        var x = feld.toFixed(2);
+        x = x.replace(".", ",");
+        if (x.length > 5) {
+            var counter = 0;
+			var tmp = x;
+            for (var l = x.length - 3; l >= 0; l--) {
+                if (counter == 3 && l > 0) {
+                    tmp = tmp.substr(0, l) + "." + tmp.substr(l);
+                    counter = 0;
+					l++;
+                } else {
+                    counter++;
+                }
+            }
+            //alert(x);
+            return tmp;
+        } else{
+            return x;
+        }
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -62,7 +57,7 @@ function RateParse(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e3c537012f1fd0106fb0de1a2799b614</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Fahrt zu Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -70,7 +65,7 @@ function RateParse(response) {
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_e3c537012f1fd0106fb0de1a2799b614</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-18 18:59:44</sys_updated_on>
+        <sys_updated_on>2020-09-20 18:30:46</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
