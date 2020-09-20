@@ -5,7 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time>1970-01-01 01:00:00</entered_time>
-        <name>automatisches Ablehnen bei abgelaufenen Buchungsanfragen</name>
+        <name>Automatisches Ablehnen bei abgelaufenen Buchungsanfragen</name>
         <run_as display_value="Lena Berlin">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -34,14 +34,14 @@ while (gr.next()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-09 10:46:19</sys_created_on>
         <sys_id>c836634b2f4310106fb0de1a2799b660</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>automatisches Ablehnen bei abgelaufenen Buchungsanfragen</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Automatisches Ablehnen bei abgelaufenen Buchungsanfragen</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sysauto_script_c836634b2f4310106fb0de1a2799b660</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-13 13:27:04</sys_updated_on>
+        <sys_updated_on>2020-09-20 07:51:37</sys_updated_on>
         <time_zone>Europe/Berlin</time_zone>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
