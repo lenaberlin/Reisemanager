@@ -2,7 +2,7 @@
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="x_526765_reisemngr_reiseantrag">status=3^ORstatus=7^EQ<item display_value="Genehmigt" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item display_value="Abgebrochen" endquery="false" field="status" goto="false" newquery="false" operator="=" or="true" value="7"/>
+            <item display_value="Storniert" endquery="false" field="status" goto="false" newquery="false" operator="=" or="true" value="7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

@@ -16,13 +16,13 @@
         <element label="Startdatum" mandatory="true" max_length="40" name="startdatum" type="glide_date"/>
         <element choice="3" default="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Abgebrochen" value="7"/>
                 <element inactive_on_update="false" label="Abgelehnt" value="-1.0"/>
                 <element inactive_on_update="false" label="Abgerechnet" value="5"/>
                 <element inactive_on_update="false" label="Ausgereist" value="6"/>
                 <element inactive_on_update="false" label="Beantragt" value="2"/>
                 <element inactive_on_update="false" label="Entwurf" value="1"/>
                 <element inactive_on_update="false" label="Genehmigt" value="3"/>
+                <element inactive_on_update="false" label="Storniert" value="7"/>
                 <element inactive_on_update="false" label="Zurückgekehrt" value="4"/>
             </choice>
         </element>

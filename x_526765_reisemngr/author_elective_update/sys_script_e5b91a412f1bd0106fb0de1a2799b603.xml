@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526765_reisemngr_reisekostenabrechnung</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_526765_reisemngr_reisekostenabrechnung">statusCHANGESTO4^EQ<item display_value="Abgeschlossen" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Status auf abgerechnet</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.addInfoMessage(current.auftragsnummer.status);
+	current.auftragsnummer.status = 5;
+	gs.addInfoMessage(current.auftragsnummer.status);
+
+	/*var gr = new GlideRecord("x_526765_reisemngr_reiseantrag");
+gr.addQuery("auftragsnummer", current.auftragsnummer);
+gr.query();
+while (gr.next()) {
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+    gr.setValue("status", 5);
+    gr.update();
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+}  
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+*/
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 10:23:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e5b91a412f1bd0106fb0de1a2799b603</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Status auf abgerechnet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_e5b91a412f1bd0106fb0de1a2799b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 16:25:25</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e5b91a412f1bd0106fb0de1a2799b603"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>5a7a74e4db36485491232f17d49619bd</instance_id>
+        <instance_name>dev99045</instance_name>
+        <name>sys_script_e5b91a412f1bd0106fb0de1a2799b603</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;
+    &lt;sys_script action="INSERT_OR_UPDATE"&gt;
+        &lt;abort_action&gt;false&lt;/abort_action&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;action_delete&gt;false&lt;/action_delete&gt;
+        &lt;action_insert&gt;true&lt;/action_insert&gt;
+        &lt;action_query&gt;false&lt;/action_query&gt;
+        &lt;action_update&gt;true&lt;/action_update&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;add_message&gt;false&lt;/add_message&gt;
+        &lt;advanced&gt;true&lt;/advanced&gt;
+        &lt;change_fields&gt;false&lt;/change_fields&gt;
+        &lt;client_callable&gt;false&lt;/client_callable&gt;
+        &lt;collection&gt;x_526765_reisemngr_reisekostenabrechnung&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;execute_function&gt;false&lt;/execute_function&gt;
+        &lt;filter_condition table="x_526765_reisemngr_reisekostenabrechnung"&gt;statusCHANGESTO4^EQ&lt;item display_value="Abgeschlossen" endquery="false" field="status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="4"/&gt;
+            &lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;
+        &lt;/filter_condition&gt;
+        &lt;is_rest&gt;false&lt;/is_rest&gt;
+        &lt;message/&gt;
+        &lt;name&gt;Status auf abgerechnet&lt;/name&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;priority&gt;100&lt;/priority&gt;
+        &lt;rest_method/&gt;
+        &lt;rest_method_text/&gt;
+        &lt;rest_service/&gt;
+        &lt;rest_service_text/&gt;
+        &lt;rest_variables/&gt;
+        &lt;role_conditions/&gt;
+        &lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.addInfoMessage(current.auftragsnummer.status);
+	current.auftragsnummer.status = 5;
+	gs.addInfoMessage(current.auftragsnummer.status);
+
+	/*var gr = new GlideRecord("x_526765_reisemngr_reiseantrag");
+gr.addQuery("auftragsnummer", current.auftragsnummer);
+gr.query();
+while (gr.next()) {
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+    gr.setValue("status", 5);
+    gr.update();
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+}  
+	gs.addInfoMessage('hallo'+ 'd'+ gr.status +'c'+ gs.status);
+*/
+})(current, previous);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-15 10:23:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;e5b91a412f1bd0106fb0de1a2799b603&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Status auf abgerechnet&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_e5b91a412f1bd0106fb0de1a2799b603&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-15 16:25:25&lt;/sys_updated_on&gt;
+        &lt;template/&gt;
+        &lt;when&gt;after&lt;/when&gt;
+    &lt;/sys_script&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=e5b91a412f1bd0106fb0de1a2799b603"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-552286188</payload_hash>
+        <record_name>Status auf abgerechnet</record_name>
+        <reverted_from/>
+        <source>bd3667a22f1310106fb0de1a2799b69e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-20 07:45:00</sys_created_on>
+        <sys_id>c466a3e22f1310106fb0de1a2799b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174aa7924f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 07:45:00</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>0466a3e27c131010a9834569b12b664f</update_guid>
+        <update_guid_history>0466a3e27c131010a9834569b12b664f:0,552deb06a293941007f47ed05891b7ef:1850701546,845cabc273939410ba68f33be71a3626:0,2f4f1542b65f54100e770848bb51ef8b:766938634,89911986051f54105b7c04b00e98d035:0,eb615d46e61f5410f0d44c25ebd46052:1162641609,b00239f139175410d972bab932a4969c:0,8ed13db190175410800f1b2b41b9e3da:1162641609,8448a87513535410a4d565c088f020e2:0,5818ec359a5354102d7488dde216a09b:1162641609,b84308f97cdf14102412fe4f05896357:0,2f23c0f994df1410b2b2b0f75eb2878b:1162641609,de8def897fdbd0103590579810795cc4:-141671080,9ad46bc1f7dbd010d70fbb36258ccea2:-717183957,f1ef5a858a1bd010350ccb44be738767:-1437369203,fdbdda05c41bd0103c9e828fb1d0a0d0:2056616742,023d9605081bd01095a1e668c4308792:360133446,c66b1a812b1bd01008c0ce9385359c2c:1179154608,0fbade41961bd010ae2908344b5cfc47:-726307083</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-20 07:48:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>1b9629726b1443d894b9b7fa0f937310</sys_id>
+        <sys_metadata>e5b91a412f1bd0106fb0de1a2799b603</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status auf abgerechnet</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_e5b91a412f1bd0106fb0de1a2799b603</sys_update_name>
+        <sys_update_version display_value="sys_script_e5b91a412f1bd0106fb0de1a2799b603">c466a3e22f1310106fb0de1a2799b64f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 07:48:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
