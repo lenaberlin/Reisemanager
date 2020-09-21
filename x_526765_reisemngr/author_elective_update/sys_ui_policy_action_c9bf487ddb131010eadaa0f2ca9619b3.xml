@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>kalkulierte_unterkunftskosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-17 08:11:46</sys_created_on>
+        <sys_id>c9bf487ddb131010eadaa0f2ca9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kalkulierte_unterkunftskosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c9bf487ddb131010eadaa0f2ca9619b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 08:11:46</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Kalkulationen verstecken">fc6f0c7ddb131010eadaa0f2ca9619e7</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_ui_policy_action_c9bf487ddb131010eadaa0f2ca9619b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>kalkulierte_unterkunftskosten</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-17 08:11:46</sys_created_on>
+        <sys_id>c9bf487ddb131010eadaa0f2ca9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kalkulierte_unterkunftskosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c9bf487ddb131010eadaa0f2ca9619b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 08:11:46</sys_updated_on>
+        <table>x_526765_reisemngr_reiseantrag</table>
+        <ui_policy display_value="Kalkulationen verstecken">fc6f0c7ddb131010eadaa0f2ca9619e7</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1212151318</payload_hash>
+        <record_name>kalkulierte_unterkunftskosten</record_name>
+        <reverted_from/>
+        <source>7ea5c587db131010eadaa0f2ca9619f8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 09:20:43</sys_created_on>
+        <sys_id>7bd509c7db131010eadaa0f2ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174aff723f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 09:20:43</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b7d509c7fe1310107d6c5999123aaf4d</update_guid>
+        <update_guid_history>b7d509c7fe1310107d6c5999123aaf4d:0,b6bf00bd2313101006d0778d0dc93eb7:1068561774</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 11:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1b66a4f1c3e6442392e615a7bee7af09</sys_id>
+        <sys_metadata>c9bf487ddb131010eadaa0f2ca9619b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kalkulierte_unterkunftskosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Kalkulationen verstecken">fc6f0c7ddb131010eadaa0f2ca9619e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c9bf487ddb131010eadaa0f2ca9619b3</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c9bf487ddb131010eadaa0f2ca9619b3">7bd509c7db131010eadaa0f2ca96194d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 11:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

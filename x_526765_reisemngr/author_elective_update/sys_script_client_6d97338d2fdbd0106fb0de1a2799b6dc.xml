@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>gebuhren1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Gebuehren zu Gesamtkosten</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading){ return; }
+    var unt = g_form.getDecimalValue("unterkunftskosten1");
+    var geb = g_form.getDecimalValue("gebuhren1");
+    var fahrt = g_form.getDecimalValue("fahrkosten_pkw");
+	var oeMittel = g_form.getDecimalValue("o_verkehrsmittel");
+    var gesamt = fahrt + geb + unt + oeMittel;
+	var ge = setZiffer(gesamt);
+    if(ge != ("0" || "0.0" || "0.00" || "0,0" || "0,00" || "")){
+		g_form.setValue("gesamtkosten1", ge);
+	}
+	else{ g_form.setValue("gesamtkosten1", "0,00"); }
+	
+    function setZiffer(feld) {
+        var x = feld.toFixed(2);
+        x = x.replace(".", ",");
+        if (x.length > 5) {
+            var counter = 0;
+			var tmp = x;
+            for (var l = x.length - 3; l >= 0; l--) {
+                if (counter == 3 && l > 0) {
+                    tmp = tmp.substr(0, l) + "." + tmp.substr(l);
+                    counter = 0;
+					l++;
+                } else {
+                    counter++;
+                }
+            }
+            //alert(x);
+            return tmp;
+        } else{
+            return x;
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 17:11:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d97338d2fdbd0106fb0de1a2799b6dc</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Gebuehren zu Gesamtkosten</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-20 18:30:08</sys_updated_on>
+        <table>x_526765_reisemngr_reisekostenabrechnung</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>ecee211cdb8823447e55d5b0cf96197a</instance_id>
+        <instance_name>dev70896</instance_name>
+        <name>sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field&gt;gebuhren1&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Gebuehren zu Gesamtkosten&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading){ return; }
+    var unt = g_form.getDecimalValue("unterkunftskosten1");
+    var geb = g_form.getDecimalValue("gebuhren1");
+    var fahrt = g_form.getDecimalValue("fahrkosten_pkw");
+	var oeMittel = g_form.getDecimalValue("o_verkehrsmittel");
+    var gesamt = fahrt + geb + unt + oeMittel;
+	var ge = setZiffer(gesamt);
+    if(ge != ("0" || "0.0" || "0.00" || "0,0" || "0,00" || "")){
+		g_form.setValue("gesamtkosten1", ge);
+	}
+	else{ g_form.setValue("gesamtkosten1", "0,00"); }
+	
+    function setZiffer(feld) {
+        var x = feld.toFixed(2);
+        x = x.replace(".", ",");
+        if (x.length &gt; 5) {
+            var counter = 0;
+			var tmp = x;
+            for (var l = x.length - 3; l &gt;= 0; l--) {
+                if (counter == 3 &amp;&amp; l &gt; 0) {
+                    tmp = tmp.substr(0, l) + "." + tmp.substr(l);
+                    counter = 0;
+					l++;
+                } else {
+                    counter++;
+                }
+            }
+            //alert(x);
+            return tmp;
+        } else{
+            return x;
+        }
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-15 17:11:24&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;6d97338d2fdbd0106fb0de1a2799b6dc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Gebuehren zu Gesamtkosten&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-20 18:30:08&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_526765_reisemngr_reisekostenabrechnung&lt;/table&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>609056449</payload_hash>
+        <record_name>Gebuehren zu Gesamtkosten</record_name>
+        <reverted_from/>
+        <source>7ea5c587db131010eadaa0f2ca9619f8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 09:20:40</sys_created_on>
+        <sys_id>c3d5c5c7db131010eadaa0f2ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174aff717ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 09:20:40</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>03d5c5c77b131010e7f6778709e4d52b</update_guid>
+        <update_guid_history>03d5c5c77b131010e7f6778709e4d52b:0,e6b50d87cc131010b702f24c4b99fe8b:-558143169,a5ee99ca975f10106ff5f87aad71c533:1795493811,cff7d8f1c35310109dfe377eda7e8a46:679794694,97555c7162531010926d8ca069ec3095:-503850500,39e198fdae131010f1cd193c9aa85536:1890157608,22c0c8b1191310107a6aded734de0f58:0,6ea000b16d1310108b6cb0d74b2caf17:-1626193810,9224a8991b9f5010cfdd02c9e714d8e4:716128416</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-21 12:08:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6d7ea52cd4c84dc883437af5e9d153f9</sys_id>
+        <sys_metadata>6d97338d2fdbd0106fb0de1a2799b6dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gebuehren zu Gesamtkosten</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_6d97338d2fdbd0106fb0de1a2799b6dc">c3d5c5c7db131010eadaa0f2ca96192b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-21 12:08:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

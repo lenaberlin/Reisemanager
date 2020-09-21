@@ -4,45 +4,44 @@
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
-        <field>gesch_gebuhren</field>
+        <field>gebuehren</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
         <name>Gebüren zu geschätzen Gesamtkosten</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading){ return; }
-    var unt = g_form.getDecimalValue("gesch_tzteunterkunftskosten");
-    var geb = g_form.getDecimalValue("gesch_gebuhren");
-    var fahrt = g_form.getDecimalValue("gesch_fahrtkosten");
-    var gesamt = fahrt + geb + unt;
-	var ge = setZiffer(gesamt);
-    if(ge != ("0" || "0.0" || "0.00" || "0,0" || "0,00" || "")){
-		g_form.setValue("gesamtkosten1", ge);
-	}
-	else{ g_form.setValue("gesamtkosten1", "0,00"); }
-	
-    function setZiffer(feld) {
-        var x = feld.toFixed(2);
-        x = x.replace(".", ",");
-        if (x.length > 5) {
-            var counter = 0;
-			var tmp = x;
-            for (var l = x.length - 3; l >= 0; l--) {
-                if (counter == 3 && l > 0) {
-                    tmp = tmp.substr(0, l) + "." + tmp.substr(l);
-                    counter = 0;
-					l++;
-                } else {
-                    counter++;
-                }
-            }
-            //alert(x);
-            return tmp;
-        } else{
-            return x;
-        }
+    if (isLoading) {
+        return;
     }
+	
+	if(newValue == ""){
+		g_form.setValue("gebuehren", "EUR;" + "0,00");
+	}
+
+    var gebuehren = g_form.getValue("gebuehren");
+    var gebuehrenCurrency = gebuehren.split(';')[0];
+    var gebuehrenValue = parseFloat(gebuehren.split(';')[1].replaceAll(".", "").replace(",", "."));
+
+
+    var ga = new GlideAjax('ExchangeRateScript');
+    ga.addParam('sysparm_name', 'getRate');
+    ga.addParam('sysparm_currency', gebuehrenCurrency);
+    ga.addParam('sysparm_value', gebuehrenValue);
+    ga.getXML(RateParse);
+
+}
+
+function RateParse(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    //alert(answer);
+    var currency_code = 'EUR';
+	var geb = parseFloat(answer);
+	g_form.setValue("kalkulierte_geb_hren", geb);
+    var fahr = parseFloat(g_form.getValue("kalkulierte_fahrkosten"));
+    var unt = parseFloat(g_form.getValue("kalkulierte_unterkunftskosten"));
+    var gesamt =  Math.round((fahr + geb + unt)* 100) / 100.0;
+    g_form.setValue("gesamtkosten", gesamt.toString().replace(".", ","));
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -50,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>211925c2db075010eadaa0f2ca96193d</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>100</sys_mod_count>
         <sys_name>Gebüren zu geschätzen Gesamtkosten</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -58,7 +57,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_211925c2db075010eadaa0f2ca96193d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-20 16:45:01</sys_updated_on>
+        <sys_updated_on>2020-09-21 14:11:11</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

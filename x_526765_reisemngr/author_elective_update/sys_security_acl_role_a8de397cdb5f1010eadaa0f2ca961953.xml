@@ -42,7 +42,7 @@
         <update_guid_history>a8de397cd65f10103d555e4e908cc555:-844466435</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">00ae4a78db9f1010eadaa0f2ca961969</sys_audit_delete>
+        <sys_audit_delete display_value="x_526765_reisemngr_intern.x_526765_reisemngr.Vorgesetzter">00ae4a78db9f1010eadaa0f2ca961969</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-14 14:52:15</sys_created_on>
