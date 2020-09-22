@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Reisekostenabrechnung" max_length="40" name="x_526765_reisemngr_reisekostenabrechnung" sizeclass="0" type="collection">
+    <element label="Reisekostenabrechnung" max_length="40" name="x_526765_reisemngr_reisekostenabrechnung" type="collection">
         <element label="Auftragsnummer" mandatory="true" max_length="32" name="auftragsnummer" reference="x_526765_reisemngr_reiseantrag" reference_qual="nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status=4^EQ" reference_qual_condition="nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^status=4^EQ" type="reference"/>
         <element label="Beleg für Fahrtkosten" max_length="40" name="beleg_fuer_fahrtkosten" type="user_image"/>
         <element label="Beleg für Gebühren" max_length="40" name="beleg_fuer_gebuehren" type="user_image"/>

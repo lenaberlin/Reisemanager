@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Neuer Reiseantrag">cd1dfcd72f431010003359a72799b673</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-09 17:05:05</sys_created_on>
+        <sys_id>551d34db2f431010003359a72799b629</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Neuer Reiseantrag</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sc_cat_item_category_551d34db2f431010003359a72799b629</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-09 17:05:05</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sc_cat_item_category_551d34db2f431010003359a72799b629</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Neuer Reiseantrag">cd1dfcd72f431010003359a72799b673</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-09 17:05:05</sys_created_on><sys_id>551d34db2f431010003359a72799b629</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Neuer Reiseantrag</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sc_cat_item_category_551d34db2f431010003359a72799b629</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-09 17:05:05</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1476348124</payload_hash>
+        <record_name>Services.Neuer Reiseantrag</record_name>
+        <reverted_from/>
+        <source>5aaca2932fd3d010003359a72799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 11:28:32</sys_created_on>
+        <sys_id>86bc66932fd3d010003359a72799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b59286ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 11:28:32</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>991d34dbd0431010d6619ffcd9fb7f2b</update_guid>
+        <update_guid_history>991d34dbd0431010d6619ffcd9fb7f2b:1476348124,c44ca61383d3d01013f4c8d9de0095ca:-804308400,991d34dbd0431010d6619ffcd9fb7f2b:1476348124,bffb65c2ec5310104e2a3d79492e16df:-804308400,991d34dbd0431010d6619ffcd9fb7f2b:1476348124,7d671906a11310103724f5e2e8a36ef8:-804308400,991d34dbd0431010d6619ffcd9fb7f2b:1476348124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Neuer Reiseantrag">128d6ed32fd3d010003359a72799b63e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 11:32:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>70a595367ce7455487c64a46090a2e44</sys_id>
+        <sys_metadata>551d34db2f431010003359a72799b629</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Neuer Reiseantrag</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="">cd1dfcd72f431010003359a72799b673</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_551d34db2f431010003359a72799b629</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_551d34db2f431010003359a72799b629">86bc66932fd3d010003359a72799b6b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 11:32:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

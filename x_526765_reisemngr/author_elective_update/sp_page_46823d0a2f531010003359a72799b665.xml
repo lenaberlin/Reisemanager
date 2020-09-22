@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>reisemanager_home_buchhalter</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles>x_526765_reisemngr.Buchhalter</roles>
+        <seo_script/>
+        <short_description>Reiseanträge Alle für Buchhalter</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 10:02:33</sys_created_on>
+        <sys_id>46823d0a2f531010003359a72799b665</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>reisemanager_home_buchhalter</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_page_46823d0a2f531010003359a72799b665</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-19 09:37:26</sys_updated_on>
+        <title>Reisemanager Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=46823d0a2f531010003359a72799b665"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sp_page_46823d0a2f531010003359a72799b665</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>reisemanager_home_buchhalter</id><internal>false</internal><public>false</public><roles>x_526765_reisemngr.Buchhalter</roles><seo_script/><short_description>Reiseanträge Alle für Buchhalter</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-18 10:02:33</sys_created_on><sys_id>46823d0a2f531010003359a72799b665</sys_id><sys_mod_count>1</sys_mod_count><sys_name>reisemanager_home_buchhalter</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sp_page_46823d0a2f531010003359a72799b665</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-19 09:37:26</sys_updated_on><title>Reisemanager Home</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=46823d0a2f531010003359a72799b665"/></record_update>]]></payload>
+        <payload_hash>-137279602</payload_hash>
+        <record_name>reisemanager_home_buchhalter</record_name>
+        <reverted_from/>
+        <source>5aaca2932fd3d010003359a72799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 11:28:46</sys_created_on>
+        <sys_id>d1cc2a932fd3d010003359a72799b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b592bb580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 11:28:46</sys_updated_on>
+        <type>Page</type>
+        <update_guid>4586ba9a085f1010ea20dba008c02bf3</update_guid>
+        <update_guid_history>4586ba9a085f1010ea20dba008c02bf3:-137279602,f23c6613fad3d010c94fe9c4f4170a8c:102852632,4586ba9a085f1010ea20dba008c02bf3:-137279602,13a2354a04531010eb110edc2440b186:-1778395030</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="reisemanager_home_buchhalter">c19300a72f97d010003359a72799b673</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:48:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>0ee672b8711542e0821922edd1b05440</sys_id>
+        <sys_metadata>46823d0a2f531010003359a72799b665</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reisemanager_home_buchhalter</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sp_page_46823d0a2f531010003359a72799b665</sys_update_name>
+        <sys_update_version display_value="sp_page_46823d0a2f531010003359a72799b665">d1cc2a932fd3d010003359a72799b6e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:48:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

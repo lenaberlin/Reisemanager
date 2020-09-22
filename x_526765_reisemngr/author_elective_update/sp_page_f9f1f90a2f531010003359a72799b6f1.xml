@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>reisemanager_home_benutzer</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles>x_526765_reisemngr.Benutzer</roles>
+        <seo_script/>
+        <short_description>Reiseanträge + Abrechnungen  Benutzer Übersicht</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 10:00:37</sys_created_on>
+        <sys_id>f9f1f90a2f531010003359a72799b6f1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>reisemanager_home_benutzer</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_page_f9f1f90a2f531010003359a72799b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-19 09:38:51</sys_updated_on>
+        <title>Reisemanager Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=f9f1f90a2f531010003359a72799b6f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sp_page_f9f1f90a2f531010003359a72799b6f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>reisemanager_home_benutzer</id><internal>false</internal><public>false</public><roles>x_526765_reisemngr.Benutzer</roles><seo_script/><short_description>Reiseanträge + Abrechnungen  Benutzer Übersicht</short_description><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-18 10:00:37</sys_created_on><sys_id>f9f1f90a2f531010003359a72799b6f1</sys_id><sys_mod_count>4</sys_mod_count><sys_name>reisemanager_home_benutzer</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sp_page_f9f1f90a2f531010003359a72799b6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-19 09:38:51</sys_updated_on><title>Reisemanager Home</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=f9f1f90a2f531010003359a72799b6f1"/></record_update>]]></payload>
+        <payload_hash>-1263341897</payload_hash>
+        <record_name>reisemanager_home_benutzer</record_name>
+        <reverted_from/>
+        <source>5aaca2932fd3d010003359a72799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 11:28:48</sys_created_on>
+        <sys_id>61cc6a932fd3d010003359a72799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b592c1e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 11:28:48</sys_updated_on>
+        <type>Page</type>
+        <update_guid>75d6fe9af75f1010a7dadb3b7f42a6ee</update_guid>
+        <update_guid_history>75d6fe9af75f1010a7dadb3b7f42a6ee:-1263341897,6c5c2e139bd3d0100a8fe08b2199e68a:1868374948,75d6fe9af75f1010a7dadb3b7f42a6ee:-1263341897,81b6f29a3c5f10108ae6132bc512cb25:1105587616,d956769a3e5f10106eb4e7625488fbee:192286074,4482b50aa35310105c9a1a9bca19eec1:-633715551,8f32fd0ab2531010d86fa2aab68cc618:183792002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="reisemanager_home_benutzer">3c3288272f97d010003359a72799b679</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:42:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>24a8e7df3d6a402faa46bf2ee30477c1</sys_id>
+        <sys_metadata>f9f1f90a2f531010003359a72799b6f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reisemanager_home_benutzer</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sp_page_f9f1f90a2f531010003359a72799b6f1</sys_update_name>
+        <sys_update_version display_value="sp_page_f9f1f90a2f531010003359a72799b6f1">61cc6a932fd3d010003359a72799b663</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:42:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

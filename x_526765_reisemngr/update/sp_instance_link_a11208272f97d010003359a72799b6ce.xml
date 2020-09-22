@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>plane</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Erstelle hier Deinen nächsten Reiseantrag!</short_description>
+        <size>md</size>
+        <sp_column display_value="1">ffa24c272f97d010003359a72799b62c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:41:32</sys_created_on>
+        <sys_id>a11208272f97d010003359a72799b6ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Neuer Reiseantrag</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_instance_link_a11208272f97d010003359a72799b6ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:44:11</sys_updated_on>
+        <title>Neuer Reiseantrag</title>
+        <type>url</type>
+        <url>/reisemanager?id=form&amp;table=x_526765_reisemngr_reiseantrag</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=a11208272f97d010003359a72799b6ce"/>
+</record_update>

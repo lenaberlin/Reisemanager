@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>auftragsnummer,status,gesamtkosten</field_list>
+        <filter/>
+        <glyph>money</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>4</order>
+        <order_by>sys_created_on</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">1cc4b94a2f531010003359a72799b631</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table with URL Filter">5d8f9dc2936832003706dfa5e57ffb06</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 10:13:19</sys_created_on>
+        <sys_id>c1257d8a2f531010003359a72799b6e8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Meine Reisekostenabrechnungen</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_instance_table_c1257d8a2f531010003359a72799b6e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 10:21:50</sys_updated_on>
+        <table>x_526765_reisemngr_reisekostenabrechnung</table>
+        <title>Meine Reisekostenabrechnungen</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=c1257d8a2f531010003359a72799b6e8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sp_instance_table_c1257d8a2f531010003359a72799b6e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>auftragsnummer,status,gesamtkosten</field_list><filter/><glyph>money</glyph><id/><maximum_entries>5</maximum_entries><order>4</order><order_by>sys_created_on</order_by><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="2">1cc4b94a2f531010003359a72799b631</sp_column><sp_page/><sp_widget display_value="Data Table with URL Filter">5d8f9dc2936832003706dfa5e57ffb06</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-18 10:13:19</sys_created_on><sys_id>c1257d8a2f531010003359a72799b6e8</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Meine Reisekostenabrechnungen</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sp_instance_table_c1257d8a2f531010003359a72799b6e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-18 10:21:50</sys_updated_on><table>x_526765_reisemngr_reisekostenabrechnung</table><title>Meine Reisekostenabrechnungen</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=c1257d8a2f531010003359a72799b6e8"/></record_update>]]></payload>
+        <payload_hash>-1365600257</payload_hash>
+        <record_name>Meine Reisekostenabrechnungen</record_name>
+        <reverted_from/>
+        <source>5aaca2932fd3d010003359a72799b66d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 11:28:45</sys_created_on>
+        <sys_id>81cc2a932fd3d010003359a72799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b592b8890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 11:28:45</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>b917f90eb0531010b0385d732dff6ace</update_guid>
+        <update_guid_history>b917f90eb0531010b0385d732dff6ace:-1365600257,791c2edf3593d0103ea33009f3bac25b:-696562165,b917f90eb0531010b0385d732dff6ace:-1365600257,c817b90ecf531010e6816e1da25c1ace:-124617742,21f6b10e1853101043903e1e516acb19:-1365600257,f525f5ca11531010f177bd6d5d1f48a6:1900487568,4d257d8ac65310102c7c1013775b9ae9:1026951921</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Meine Reisekostenabrechnungen">2c3288272f97d010003359a72799b63e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 17:42:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>3c1d3d4cbc544b8a87e01b5fc9cc2904</sys_id>
+        <sys_metadata>c1257d8a2f531010003359a72799b6e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meine Reisekostenabrechnungen</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sp_instance_table_c1257d8a2f531010003359a72799b6e8</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_c1257d8a2f531010003359a72799b6e8">81cc2a932fd3d010003359a72799b6ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 17:42:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
