@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition>gs.hasRole("x_526765_reisemngr.Benutzer")</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>envelope-o</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Meine Reisekostenabrechnungen</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="reisemanager_reisekost_benutzer">e8f6be9a2f5f1010003359a72799b66c</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Reisekostenabrechnungen">473d0c632fd7d010003359a72799b6d5</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 18:36:45</sys_created_on>
+        <sys_id>db9e0c272fd7d010003359a72799b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meine Reisekostenabrechnungen</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_db9e0c272fd7d010003359a72799b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 18:36:45</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=db9e0c272fd7d010003359a72799b67e"/>
+</record_update>

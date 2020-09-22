@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-17 11:31:33</sys_created_on>
-        <sys_id>ea5b40232fd7d010003359a72799b6b1</sys_id>
+        <sys_id>0f3ec8e32fd7d010003359a72799b660</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Kommentar zur Stornierung</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_dictionary_x_526765_reisemngr_reiseantrag_kommentar_zur_stornierung</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-22 18:22:05</sys_updated_on>
+        <sys_updated_on>2020-09-22 18:34:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
