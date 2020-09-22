@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-04 10:32:29</sys_created_on>
-        <sys_id>e2fe50a72f1bd010003359a72799b628</sys_id>
+        <sys_id>ef23acab2f1bd010003359a72799b636</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_dictionary_x_526765_reisemngr_reisekostenabrechnung_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-22 19:47:52</sys_updated_on>
+        <sys_updated_on>2020-09-22 20:06:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
