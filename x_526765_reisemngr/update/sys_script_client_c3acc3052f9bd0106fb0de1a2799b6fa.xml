@@ -11,8 +11,7 @@
         <name>Tabs deaktivieren</name>
         <order/>
         <script><![CDATA[function onLoad() {
-  g_tabs2Sections.deactivate();
-   
+    g_tabs2Sections.deactivate();
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3acc3052f9bd0106fb0de1a2799b6fa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Tabs deaktivieren</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -28,7 +27,7 @@
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-15 14:03:46</sys_updated_on>
+        <sys_updated_on>2020-09-22 21:01:59</sys_updated_on>
         <table>x_526765_reisemngr_reisekostenabrechnung</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
