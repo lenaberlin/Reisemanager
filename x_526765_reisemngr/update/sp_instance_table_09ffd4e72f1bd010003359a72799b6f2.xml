@@ -22,19 +22,19 @@
         <size>md</size>
         <sp_column display_value="2">ea9f54e72f1bd010003359a72799b6ec</sp_column>
         <sp_page/>
-        <sp_widget display_value="Data table with Filter">67a072d59361220064f572edb67ffb85</sp_widget>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-22 19:52:00</sys_created_on>
         <sys_id>09ffd4e72f1bd010003359a72799b6f2</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Genehmigte Reiseanträge</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sp_instance_table_09ffd4e72f1bd010003359a72799b6f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-23 19:25:38</sys_updated_on>
+        <sys_updated_on>2020-09-23 19:45:09</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>Genehmigte Reiseanträge</title>
         <url/>
