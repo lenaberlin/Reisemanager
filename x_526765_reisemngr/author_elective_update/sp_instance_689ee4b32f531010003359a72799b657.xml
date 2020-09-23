@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>4</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">ea9f54e72f1bd010003359a72799b6ec</sp_column>
+        <sp_widget display_value="Approval Info">33442352cb30020000f8d856634c9c3f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 15:34:21</sys_created_on>
+        <sys_id>689ee4b32f531010003359a72799b657</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_instance_689ee4b32f531010003359a72799b657</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 16:20:59</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=689ee4b32f531010003359a72799b657"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sp_instance_689ee4b32f531010003359a72799b657</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>4</order><roles/><short_description/><size>md</size><sp_column display_value="2">ea9f54e72f1bd010003359a72799b6ec</sp_column><sp_widget display_value="Approval Info">33442352cb30020000f8d856634c9c3f</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-23 15:34:21</sys_created_on><sys_id>689ee4b32f531010003359a72799b657</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sp_instance_689ee4b32f531010003359a72799b657</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-23 16:20:59</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=689ee4b32f531010003359a72799b657"/></record_update>]]></payload>
+        <payload_hash>-502145285</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a828b83b2f531010003359a72799b61f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 16:20:59</sys_created_on>
+        <sys_id>bb397cfb2f531010003359a72799b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bbc4a14c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 16:20:59</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>73397cfb965310105f8dfe90d22f0c18</update_guid>
+        <update_guid_history>73397cfb965310105f8dfe90d22f0c18:-502145285,38393cfba3531010de74c2608bf8461f:1239696410,ff18b0bb79531010f03e3b0af2b72eb6:0,96f7387b0d5310102b87c083f4c7884a:-1655288811,209ee4b378531010be2fd86445f1fc59:-502145285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">01497cfb2f531010003359a72799b625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 16:21:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0bfc4260d1964b84812a16b4814b8b10</sys_id>
+        <sys_metadata>689ee4b32f531010003359a72799b657</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sp_instance_689ee4b32f531010003359a72799b657</sys_update_name>
+        <sys_update_version display_value="sp_instance_689ee4b32f531010003359a72799b657">bb397cfb2f531010003359a72799b618</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 16:21:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
