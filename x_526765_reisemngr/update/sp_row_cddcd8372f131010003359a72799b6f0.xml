@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Reiseanträge - Container 2">88bc98372f131010003359a72799b67f</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:16:50</sys_created_on>
+        <sys_id>cddcd8372f131010003359a72799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_row_cddcd8372f131010003359a72799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:16:50</sys_updated_on>
+    </sp_row>
+</record_update>

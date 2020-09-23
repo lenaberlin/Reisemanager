@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>sysverb_insert</action_name>
+        <action_name>sysverb_insert_rmngr</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
@@ -51,7 +51,7 @@ action.setRedirectURL('x_526765_reisemngr_reiseantrag_list.do?sysparm_query=name
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>74de5d0edbc35010eadaa0f2ca9619f5</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Beantragen</sys_name>
         <sys_overrides display_value="Submit">42da42d00a0a0b340066377beb6dd099</sys_overrides>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
@@ -59,7 +59,7 @@ action.setRedirectURL('x_526765_reisemngr_reiseantrag_list.do?sysparm_query=name
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sys_ui_action_74de5d0edbc35010eadaa0f2ca9619f5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-17 19:43:29</sys_updated_on>
+        <sys_updated_on>2020-09-23 16:04:00</sys_updated_on>
         <table>x_526765_reisemngr_reiseantrag</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

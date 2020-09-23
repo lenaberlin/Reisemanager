@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:50:12</sys_created_on>
+        <sys_id>bd7428bb2f131010003359a72799b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Speichern.Serviceportal</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_ui_action display_value="Speichern">276f2e35dbd71010eadaa0f2ca9619d0</sys_ui_action>
+        <sys_ui_view display_value="Serviceportal" name="serviceportal">3a7945af2f9bd010003359a72799b6ce</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_bd7428bb2f131010003359a72799b6aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:50:12</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sys_ui_action_view_bd7428bb2f131010003359a72799b6aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-23 14:50:12</sys_created_on><sys_id>bd7428bb2f131010003359a72799b6aa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Speichern.Serviceportal</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_ui_action display_value="Speichern">276f2e35dbd71010eadaa0f2ca9619d0</sys_ui_action><sys_ui_view display_value="Serviceportal" name="serviceportal">3a7945af2f9bd010003359a72799b6ce</sys_ui_view><sys_update_name>sys_ui_action_view_bd7428bb2f131010003359a72799b6aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-23 14:50:12</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>-656101018</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>67ad1c372f131010003359a72799b638</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:50:12</sys_created_on>
+        <sys_id>397428bb2f131010003359a72799b6ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bb7183ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:50:12</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>717428bb78131010c797371cb539b0ac</update_guid>
+        <update_guid_history>717428bb78131010c797371cb539b0ac:-656101018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 15:02:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>a1a7ee544e7345a6865c2c14ba223404</sys_id>
+        <sys_metadata>bd7428bb2f131010003359a72799b6aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Speichern.Serviceportal</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Speichern">276f2e35dbd71010eadaa0f2ca9619d0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_bd7428bb2f131010003359a72799b6aa</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_bd7428bb2f131010003359a72799b6aa">397428bb2f131010003359a72799b6ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 15:02:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Reiseanträge - Container 1">b99f10672f1bd010003359a72799b6b6</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:13:52</sys_created_on>
+        <sys_id>b52c58f32f131010003359a72799b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sp_row_b52c58f32f131010003359a72799b69a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:13:52</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sp_row_b52c58f32f131010003359a72799b69a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Reiseanträge - Container 1">b99f10672f1bd010003359a72799b6b6</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-23 14:13:52</sys_created_on><sys_id>b52c58f32f131010003359a72799b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_update_name>sp_row_b52c58f32f131010003359a72799b69a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-23 14:13:52</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>976310891</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>2203052b2f9bd010003359a72799b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:13:52</sys_created_on>
+        <sys_id>b52c58f32f131010003359a72799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bb5040bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:13:52</sys_updated_on>
+        <type>Row</type>
+        <update_guid>fd2c58f38d131010ea6e7adeb5f5bf9b</update_guid>
+        <update_guid_history>fd2c58f38d131010ea6e7adeb5f5bf9b:976310891</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">095c54372f131010003359a72799b6ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>32b0978036894c4ca23d901a39e40290</sys_id>
+        <sys_metadata>b52c58f32f131010003359a72799b69a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sp_row_b52c58f32f131010003359a72799b69a</sys_update_name>
+        <sys_update_version display_value="sp_row_b52c58f32f131010003359a72799b69a">b52c58f32f131010003359a72799b69c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
