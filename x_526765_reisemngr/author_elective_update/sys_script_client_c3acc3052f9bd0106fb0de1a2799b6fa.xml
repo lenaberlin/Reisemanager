@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Deaktiviert Tabs von dem Reiseantragsformular</description>
+        <field>reiseantragsnummer</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Tabs deaktivieren</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    g_tabs2Sections.deactivate();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 14:02:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c3acc3052f9bd0106fb0de1a2799b6fa</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Tabs deaktivieren</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_update_name>sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 21:01:59</sys_updated_on>
+        <table>x_526765_reisemngr_reisekostenabrechnung</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Deaktiviert Tabs von dem Reiseantragsformular&lt;/description&gt;
+        &lt;field&gt;reiseantragsnummer&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Tabs deaktivieren&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+    g_tabs2Sections.deactivate();
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-15 14:02:13&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c3acc3052f9bd0106fb0de1a2799b6fa&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Tabs deaktivieren&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Reisemanager" source="x_526765_reisemngr"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Reisemanager"&gt;123a61692f4790106fb0de1a2799b6fc&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-22 21:01:59&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_526765_reisemngr_reisekostenabrechnung&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1004860473</payload_hash>
+        <record_name>Tabs deaktivieren</record_name>
+        <reverted_from/>
+        <source>db5acdbf2f931010003359a72799b66e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 17:36:58</sys_created_on>
+        <sys_id>a4aa81332fd31010003359a72799b69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174bc0a2f910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 17:36:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e0aa813374d31010c54709c0c91a689e</update_guid>
+        <update_guid_history>e0aa813374d31010c54709c0c91a689e:0,156a41ff7a93101052ce0736d8155e7c:396429159,9fda70332793101088c6c3d85e6178da:0,3daa70ff2d53101098836b202eb1211c:396429159,6fc9747fca5310107595d9a7f8a8ae62:0,7d99743f0b531010b51d45afd7925903:396429159,892834bbc85310100029369966635baf:0,e8e7707b5d531010730d6b6c832d7df7:396429159,f1f2856b759bd0108a3a75f7013f074d:0,4cc2852bd29bd010ad5d884d812b653b:396429159,c8ecf4e35e9bd0109b40593418bed4c3:0,92acf4a3b59bd01016c08ddb1b8f22d5:396429159,46ff686b755bd01016a5ea0aae42f814:-1372891021,d5efe46b4f5bd01023ca2ba3df4c36c4:-1975718500,c30fe86b315bd010927efa7c7cce01f7:-1372891021,f78e68e7ee5bd01081d40cc528e89774:1169410569,770d28e7145bd010e76846a2d40ca989:187542430,529be4e7935bd01054b506ecd5c6f5d2:1169410569,e51b60e7c05bd010b4e8fc7d08184ec3:-1223398186,891a2c67795bd010fa762b45e9d2fe1e:0,e0e92c27805bd010f98cab28b33d4404:679054333,97a8eca3415bd010f19ee44f52168f60:0,ae78ac63775bd010e28496b9779c57d0:679054333,8b16ecafc41bd0103a9c4e1d66a83130:0,7ee5ec6f1a1bd0107cf80c28f08b99b3:679054333,cf33a0eb831bd0103e2836152d3ef678:0,eb03e0ab3d1bd0104d352fd63f422f71:679054333,fd0f54a7891bd010309ac34b380b4334:0,f2de9467911bd010f50117eaa28799c3:679054333,26fad863ac1bd0104333851243507be4:0,eeca1c23011bd010433da2968b02feef:679054333,e6f1dc6b04d7d0109bcc44b9944110a1:0,6bc1506bf0d7d010552672c7108d769a:679054333,d1ef0ca736d7d010d225069a8e2b30aa:0,5ebf8c67c3d7d010d6e015c8df4d8ad8:679054333,864ecce3aad7d010929c5f9098626964:0,7b1e40e3f2d7d0106297fb5fc60d30f0:679054333,b56b842366d7d01004c4124a7b4eb5d8:0,6a3b08ef6f97d010847e44d728208260:679054333,26b7042fb097d010641c8f538486b813:0,b49784eb2297d010e5f3363a764a94dc:679054333,b7c6cc6bf097d010faf1ad7903e8aa5f:0,7896482b4f97d0102f87e1550ab2d799:679054333,666ce25363d3d010b2f0c71d7b714498:0,b91c2edf0493d01077cc74621b19736e:679054333,871cedc22e531010dc9aa6c6e5697d4b:0,59ebad82bb531010d2c2aecf1c96a851:679054333,0587514672131010cb3333e6ed6e56c9:789718371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 19:34:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4a1496ba01084f608d9caaf6cedcca40</sys_id>
+        <sys_metadata>c3acc3052f9bd0106fb0de1a2799b6fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tabs deaktivieren</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Reisekostenabrechnung">1521fd6d2f4790106fb0de1a2799b659</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c3acc3052f9bd0106fb0de1a2799b6fa">a4aa81332fd31010003359a72799b69e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 19:34:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
