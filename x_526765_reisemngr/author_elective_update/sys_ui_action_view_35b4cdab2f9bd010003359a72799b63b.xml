@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 22:33:04</sys_created_on>
+        <sys_id>35b4cdab2f9bd010003359a72799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Beantragen.Service Portal</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_ui_action display_value="Beantragen">41b06d602f9390106fb0de1a2799b6e6</sys_ui_action>
+        <sys_ui_view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_35b4cdab2f9bd010003359a72799b63b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 22:33:04</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</application>
+        <file_path/>
+        <instance_id>a591ce40db443b0007072f17d4961989</instance_id>
+        <instance_name>dev74145</instance_name>
+        <name>sys_ui_action_view_35b4cdab2f9bd010003359a72799b63b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-22 22:33:04</sys_created_on><sys_id>35b4cdab2f9bd010003359a72799b63b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Beantragen.Service Portal</sys_name><sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package><sys_policy/><sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope><sys_ui_action display_value="Beantragen">41b06d602f9390106fb0de1a2799b6e6</sys_ui_action><sys_ui_view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</sys_ui_view><sys_update_name>sys_ui_action_view_35b4cdab2f9bd010003359a72799b63b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-22 22:33:04</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>23769053</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>2203052b2f9bd010003359a72799b6b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-22 22:33:04</sys_created_on>
+        <sys_id>94d441eb2f9bd010003359a72799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174b7f2ea290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-22 22:33:04</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>dcd441eb929bd010289a410f9cb01627</update_guid>
+        <update_guid_history>dcd441eb929bd010289a410f9cb01627:23769053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 14:56:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>3a33de6433c6412d9425421570d04481</sys_id>
+        <sys_metadata>35b4cdab2f9bd010003359a72799b63b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Beantragen.Service Portal</sys_name>
+        <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
+        <sys_parent display_value="Beantragen">41b06d602f9390106fb0de1a2799b6e6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
+        <sys_scope_delete display_value="">033e43156c144daaac71e72669545d49</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_35b4cdab2f9bd010003359a72799b63b</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_35b4cdab2f9bd010003359a72799b63b">94d441eb2f9bd010003359a72799b628</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 14:56:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

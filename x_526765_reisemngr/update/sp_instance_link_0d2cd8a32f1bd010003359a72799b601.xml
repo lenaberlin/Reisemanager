@@ -22,17 +22,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-22 19:35:22</sys_created_on>
         <sys_id>0d2cd8a32f1bd010003359a72799b601</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Neue Reisekosten Abrechnung</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sp_instance_link_0d2cd8a32f1bd010003359a72799b601</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-22 19:36:22</sys_updated_on>
+        <sys_updated_on>2020-09-23 14:29:20</sys_updated_on>
         <title>Neue Reisekosten Abrechnung</title>
         <type>url</type>
-        <url>/reisemanager?id=form&amp;table= x_526765_reisemngr_reisekostenabrechnung</url>
+        <url>/reisemanager?id=form&amp;table=x_526765_reisemngr_reisekostenabrechnung</url>
         <widget_parameters><![CDATA[{
 	"link_template": {
 		"value": "",
