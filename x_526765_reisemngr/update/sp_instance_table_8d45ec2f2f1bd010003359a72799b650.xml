@@ -4,9 +4,11 @@
         <class_name/>
         <color>default</color>
         <css/>
-        <display_field>reiseantragsnummer</display_field>
-        <field_list>auftragsnummer,gesamtkosten</field_list>
-        <filter table="x_526765_reisemngr_reisekostenabrechnung">status=-1.0^EQ<item display_value="Abgelehnt" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="-1.0"/>
+        <display_field>approval_column</display_field>
+        <field_list>document_id,comments,sys_created_on</field_list>
+        <filter table="sysapproval_approver">state=rejected^source_table=x_526765_reisemngr_reisekostenabrechnung^approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="rejected"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_526765_reisemngr_reisekostenabrechnung"/>
+            <item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <glyph/>
@@ -14,7 +16,7 @@
         <maximum_entries/>
         <order>3</order>
         <order_by>sys_created_on</order_by>
-        <order_direction>asc</order_direction>
+        <order_direction>desc</order_direction>
         <roles/>
         <short_description/>
         <size>md</size>
@@ -25,15 +27,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-22 20:15:14</sys_created_on>
         <sys_id>8d45ec2f2f1bd010003359a72799b650</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Abgelehnte Reisekostenabrechnungen</sys_name>
         <sys_package display_value="Reisemanager" source="x_526765_reisemngr">123a61692f4790106fb0de1a2799b6fc</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reisemanager">123a61692f4790106fb0de1a2799b6fc</sys_scope>
         <sys_update_name>sp_instance_table_8d45ec2f2f1bd010003359a72799b650</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-22 20:16:39</sys_updated_on>
-        <table>x_526765_reisemngr_reisekostenabrechnung</table>
+        <sys_updated_on>2020-09-23 17:29:30</sys_updated_on>
+        <table>sysapproval_approver</table>
         <title>Abgelehnte Reisekostenabrechnungen</title>
         <url/>
         <widget_parameters/>
